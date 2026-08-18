@@ -1,4 +1,4 @@
-# Diarización de Hablantes 🎙️
+# Diarización de Hablantes
 
 Aplicación web desarrollada en Python que recibe un archivo de audio —por ejemplo, una reunión, una clase o una entrevista— y analiza **quién habló, cuándo habló y cuánto tiempo participó cada persona**.
 
@@ -8,7 +8,7 @@ El proyecto busca trabajar también con **habla simultánea (overlapping speech)
 
 ---
 
-## 📌 ¿Qué problema resuelve?
+## ¿Qué problema resuelve?
 
 En una reunión o una clase puede ser difícil reconstruir posteriormente **quién intervino, durante cuánto tiempo y en qué momentos hubo participación simultánea**.
 
@@ -16,14 +16,14 @@ La propuesta utiliza **diarización de hablantes (speaker diarization)**, es dec
 
 ### Casos de uso
 
-- 💼 **Reuniones de trabajo:** analizar la participación de cada integrante y apoyar la elaboración de minutas.
-- 🏫 **Salas de clases:** identificar los segmentos correspondientes al profesor o a distintos alumnos.
-- 🎧 **Entrevistas y podcasts:** separar temporalmente las intervenciones de entrevistadores y entrevistados.
-- 📊 **Estudios de participación:** calcular segundos y porcentaje de tiempo hablado por cada participante.
+- **Reuniones de trabajo:** analizar la participación de cada integrante y apoyar la elaboración de minutas.
+- **Salas de clases:** identificar los segmentos correspondientes al profesor o a distintos alumnos.
+- **Entrevistas y podcasts:** separar temporalmente las intervenciones de entrevistadores y entrevistados.
+- **Estudios de participación:** calcular segundos y porcentaje de tiempo hablado por cada participante.
 
 ---
 
-## 🎯 Objetivo
+## Objetivo
 
 Diseñar e implementar una herramienta que, a partir de un audio con múltiples hablantes:
 
@@ -44,7 +44,7 @@ Por eso, `pyannote-audio` es una excelente base para la diarización, pero si el
 
 ---
 
-## 🧠 ¿Cómo funciona?
+## ¿Cómo funciona?
 
 ```text
 Audio (.wav / .mp3)
@@ -81,7 +81,7 @@ Fuentes de audio estimadas
 
 ---
 
-## 🛠️ Stack tecnológico
+## Stack tecnológico
 
 | Capa | Herramientas | Función |
 |---|---|---|
@@ -110,7 +110,7 @@ Fuentes de audio estimadas
 
 ---
 
-## 📂 Datasets de referencia
+## Datasets de referencia
 
 - **AMI Meeting Corpus:** reuniones reales con múltiples hablantes; especialmente relevante para este proyecto.
 - **VoxCeleb:** útil para tareas relacionadas con reconocimiento/verificación de hablantes.
@@ -150,7 +150,7 @@ Estos repositorios fueron revisados como referencia para el diseño del proyecto
 
 ---
 
-## 🗺️ Roadmap
+## Roadmap
 
 - [ ] Revisar y probar proyectos open source de diarización y separación.
 - [ ] Seleccionar el modelo base de diarización.
@@ -166,7 +166,7 @@ Estos repositorios fueron revisados como referencia para el diseño del proyecto
 
 ---
 
-## 🚀 Flujo de uso esperado
+## Flujo de uso esperado
 
 1. El usuario entra a la aplicación.
 2. Sube un archivo `.wav` o `.mp3`.
