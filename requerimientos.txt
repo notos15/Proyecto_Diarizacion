@@ -1,0 +1,15 @@
+# -------------------------------------------------------------
+# LIBRERÍAS DE PROCESAMIENTO DE AUDIO Y DIARIZACIÓN ACÚSTICA
+# -------------------------------------------------------------
+
+# Carga de audio, filtrado, VAD y extracción de características (Espectrogramas / MFCCs)
+librosa>=0.10.0
+
+# Algoritmos de clustering (K-Means) para agrupar vectores de voz e identificar hablantes
+scikit-learn>=1.2.0
+
+# Operaciones matemáticas vectoriales y manejo de arrays
+numpy>=1.22.0
+
+# Requerido por librosa para lectura de archivos de sonido en distintos formatos (.wav, .mp3, etc.)
+soundfile>=0.12.0
