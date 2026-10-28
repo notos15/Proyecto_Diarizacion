@@ -29,3 +29,7 @@ sherpa-onnx==1.13.8
 # Página local y configuración mediante .env
 Flask>=3.1,<4
 python-dotenv>=1.2,<2
+
+# Evaluación por turnos y lectura opcional de la planilla de anotaciones
+scipy>=1.11
+openpyxl>=3.1

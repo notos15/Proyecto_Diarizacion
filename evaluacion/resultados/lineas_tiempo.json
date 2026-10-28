@@ -1,0 +1,4114 @@
+{
+  "Audio 1": {
+    "duracion": 63.08,
+    "manual": [
+      {
+        "inicio": 0.0,
+        "fin": 2.0,
+        "valor": -1
+      },
+      {
+        "inicio": 2.0,
+        "fin": 6.0,
+        "valor": 0
+      },
+      {
+        "inicio": 6.0,
+        "fin": 8.0,
+        "valor": -1
+      },
+      {
+        "inicio": 8.0,
+        "fin": 9.0,
+        "valor": 1
+      },
+      {
+        "inicio": 9.0,
+        "fin": 17.0,
+        "valor": -1
+      },
+      {
+        "inicio": 17.0,
+        "fin": 22.0,
+        "valor": 2
+      },
+      {
+        "inicio": 22.0,
+        "fin": 25.0,
+        "valor": -1
+      },
+      {
+        "inicio": 25.0,
+        "fin": 28.0,
+        "valor": 2
+      },
+      {
+        "inicio": 28.0,
+        "fin": 30.0,
+        "valor": -1
+      },
+      {
+        "inicio": 30.0,
+        "fin": 39.0,
+        "valor": 2
+      },
+      {
+        "inicio": 39.0,
+        "fin": 40.0,
+        "valor": -1
+      },
+      {
+        "inicio": 40.0,
+        "fin": 43.0,
+        "valor": 3
+      },
+      {
+        "inicio": 43.0,
+        "fin": 44.0,
+        "valor": -1
+      },
+      {
+        "inicio": 44.0,
+        "fin": 46.0,
+        "valor": 2
+      },
+      {
+        "inicio": 46.0,
+        "fin": 47.0,
+        "valor": -1
+      },
+      {
+        "inicio": 47.0,
+        "fin": 48.0,
+        "valor": 3
+      },
+      {
+        "inicio": 48.0,
+        "fin": 51.0,
+        "valor": -1
+      },
+      {
+        "inicio": 51.0,
+        "fin": 52.0,
+        "valor": 2
+      },
+      {
+        "inicio": 52.0,
+        "fin": 61.0,
+        "valor": 3
+      },
+      {
+        "inicio": 61.0,
+        "fin": 63.08,
+        "valor": -1
+      }
+    ],
+    "sistema": [
+      {
+        "inicio": 0.0,
+        "fin": 1.75,
+        "valor": -1
+      },
+      {
+        "inicio": 1.75,
+        "fin": 4.0,
+        "valor": 0
+      },
+      {
+        "inicio": 4.0,
+        "fin": 4.75,
+        "valor": -1
+      },
+      {
+        "inicio": 4.75,
+        "fin": 5.75,
+        "valor": 0
+      },
+      {
+        "inicio": 5.75,
+        "fin": 7.5,
+        "valor": -1
+      },
+      {
+        "inicio": 7.5,
+        "fin": 8.75,
+        "valor": 0
+      },
+      {
+        "inicio": 8.75,
+        "fin": 11.0,
+        "valor": -1
+      },
+      {
+        "inicio": 11.0,
+        "fin": 15.5,
+        "valor": 1
+      },
+      {
+        "inicio": 15.5,
+        "fin": 17.75,
+        "valor": 2
+      },
+      {
+        "inicio": 17.75,
+        "fin": 18.0,
+        "valor": -1
+      },
+      {
+        "inicio": 18.0,
+        "fin": 18.75,
+        "valor": 2
+      },
+      {
+        "inicio": 18.75,
+        "fin": 19.0,
+        "valor": -1
+      },
+      {
+        "inicio": 19.0,
+        "fin": 23.5,
+        "valor": 2
+      },
+      {
+        "inicio": 23.5,
+        "fin": 24.25,
+        "valor": -1
+      },
+      {
+        "inicio": 24.25,
+        "fin": 25.5,
+        "valor": 2
+      },
+      {
+        "inicio": 25.5,
+        "fin": 26.25,
+        "valor": -1
+      },
+      {
+        "inicio": 26.25,
+        "fin": 28.75,
+        "valor": 2
+      },
+      {
+        "inicio": 28.75,
+        "fin": 29.0,
+        "valor": -1
+      },
+      {
+        "inicio": 29.0,
+        "fin": 29.75,
+        "valor": 2
+      },
+      {
+        "inicio": 29.75,
+        "fin": 30.75,
+        "valor": -1
+      },
+      {
+        "inicio": 30.75,
+        "fin": 31.5,
+        "valor": 2
+      },
+      {
+        "inicio": 31.5,
+        "fin": 32.25,
+        "valor": -1
+      },
+      {
+        "inicio": 32.25,
+        "fin": 34.0,
+        "valor": 2
+      },
+      {
+        "inicio": 34.0,
+        "fin": 34.5,
+        "valor": -1
+      },
+      {
+        "inicio": 34.5,
+        "fin": 36.0,
+        "valor": 2
+      },
+      {
+        "inicio": 36.0,
+        "fin": 36.75,
+        "valor": -1
+      },
+      {
+        "inicio": 36.75,
+        "fin": 37.5,
+        "valor": 2
+      },
+      {
+        "inicio": 37.5,
+        "fin": 37.75,
+        "valor": -1
+      },
+      {
+        "inicio": 37.75,
+        "fin": 39.5,
+        "valor": 2
+      },
+      {
+        "inicio": 39.5,
+        "fin": 40.0,
+        "valor": -1
+      },
+      {
+        "inicio": 40.0,
+        "fin": 41.5,
+        "valor": 3
+      },
+      {
+        "inicio": 41.5,
+        "fin": 41.75,
+        "valor": -1
+      },
+      {
+        "inicio": 41.75,
+        "fin": 43.75,
+        "valor": 3
+      },
+      {
+        "inicio": 43.75,
+        "fin": 44.25,
+        "valor": -1
+      },
+      {
+        "inicio": 44.25,
+        "fin": 47.75,
+        "valor": 2
+      },
+      {
+        "inicio": 47.75,
+        "fin": 50.0,
+        "valor": 3
+      },
+      {
+        "inicio": 50.0,
+        "fin": 50.75,
+        "valor": -1
+      },
+      {
+        "inicio": 50.75,
+        "fin": 51.25,
+        "valor": 2
+      },
+      {
+        "inicio": 51.25,
+        "fin": 51.75,
+        "valor": -1
+      },
+      {
+        "inicio": 51.75,
+        "fin": 53.25,
+        "valor": 2
+      },
+      {
+        "inicio": 53.25,
+        "fin": 54.25,
+        "valor": -1
+      },
+      {
+        "inicio": 54.25,
+        "fin": 55.0,
+        "valor": 3
+      },
+      {
+        "inicio": 55.0,
+        "fin": 56.0,
+        "valor": -1
+      },
+      {
+        "inicio": 56.0,
+        "fin": 60.75,
+        "valor": 3
+      },
+      {
+        "inicio": 60.75,
+        "fin": 63.08,
+        "valor": -1
+      }
+    ],
+    "evaluacion": [
+      {
+        "inicio": 0.0,
+        "fin": 1.75,
+        "valor": 0
+      },
+      {
+        "inicio": 1.75,
+        "fin": 2.0,
+        "valor": 3
+      },
+      {
+        "inicio": 2.0,
+        "fin": 4.0,
+        "valor": 1
+      },
+      {
+        "inicio": 4.0,
+        "fin": 4.75,
+        "valor": 2
+      },
+      {
+        "inicio": 4.75,
+        "fin": 5.75,
+        "valor": 1
+      },
+      {
+        "inicio": 5.75,
+        "fin": 6.0,
+        "valor": 2
+      },
+      {
+        "inicio": 6.0,
+        "fin": 7.5,
+        "valor": 0
+      },
+      {
+        "inicio": 7.5,
+        "fin": 8.0,
+        "valor": 3
+      },
+      {
+        "inicio": 8.0,
+        "fin": 8.75,
+        "valor": 4
+      },
+      {
+        "inicio": 8.75,
+        "fin": 9.0,
+        "valor": 2
+      },
+      {
+        "inicio": 9.0,
+        "fin": 11.0,
+        "valor": 0
+      },
+      {
+        "inicio": 11.0,
+        "fin": 17.0,
+        "valor": 3
+      },
+      {
+        "inicio": 17.0,
+        "fin": 17.75,
+        "valor": 1
+      },
+      {
+        "inicio": 17.75,
+        "fin": 18.0,
+        "valor": 2
+      },
+      {
+        "inicio": 18.0,
+        "fin": 18.75,
+        "valor": 1
+      },
+      {
+        "inicio": 18.75,
+        "fin": 19.0,
+        "valor": 2
+      },
+      {
+        "inicio": 19.0,
+        "fin": 22.0,
+        "valor": 1
+      },
+      {
+        "inicio": 22.0,
+        "fin": 23.5,
+        "valor": 3
+      },
+      {
+        "inicio": 23.5,
+        "fin": 24.25,
+        "valor": 0
+      },
+      {
+        "inicio": 24.25,
+        "fin": 25.0,
+        "valor": 3
+      },
+      {
+        "inicio": 25.0,
+        "fin": 25.5,
+        "valor": 1
+      },
+      {
+        "inicio": 25.5,
+        "fin": 26.25,
+        "valor": 2
+      },
+      {
+        "inicio": 26.25,
+        "fin": 28.0,
+        "valor": 1
+      },
+      {
+        "inicio": 28.0,
+        "fin": 28.75,
+        "valor": 3
+      },
+      {
+        "inicio": 28.75,
+        "fin": 29.0,
+        "valor": 0
+      },
+      {
+        "inicio": 29.0,
+        "fin": 29.75,
+        "valor": 3
+      },
+      {
+        "inicio": 29.75,
+        "fin": 30.0,
+        "valor": 0
+      },
+      {
+        "inicio": 30.0,
+        "fin": 30.75,
+        "valor": 2
+      },
+      {
+        "inicio": 30.75,
+        "fin": 31.5,
+        "valor": 1
+      },
+      {
+        "inicio": 31.5,
+        "fin": 32.25,
+        "valor": 2
+      },
+      {
+        "inicio": 32.25,
+        "fin": 34.0,
+        "valor": 1
+      },
+      {
+        "inicio": 34.0,
+        "fin": 34.5,
+        "valor": 2
+      },
+      {
+        "inicio": 34.5,
+        "fin": 36.0,
+        "valor": 1
+      },
+      {
+        "inicio": 36.0,
+        "fin": 36.75,
+        "valor": 2
+      },
+      {
+        "inicio": 36.75,
+        "fin": 37.5,
+        "valor": 1
+      },
+      {
+        "inicio": 37.5,
+        "fin": 37.75,
+        "valor": 2
+      },
+      {
+        "inicio": 37.75,
+        "fin": 39.0,
+        "valor": 1
+      },
+      {
+        "inicio": 39.0,
+        "fin": 39.5,
+        "valor": 3
+      },
+      {
+        "inicio": 39.5,
+        "fin": 40.0,
+        "valor": 0
+      },
+      {
+        "inicio": 40.0,
+        "fin": 41.5,
+        "valor": 1
+      },
+      {
+        "inicio": 41.5,
+        "fin": 41.75,
+        "valor": 2
+      },
+      {
+        "inicio": 41.75,
+        "fin": 43.0,
+        "valor": 1
+      },
+      {
+        "inicio": 43.0,
+        "fin": 43.75,
+        "valor": 3
+      },
+      {
+        "inicio": 43.75,
+        "fin": 44.0,
+        "valor": 0
+      },
+      {
+        "inicio": 44.0,
+        "fin": 44.25,
+        "valor": 2
+      },
+      {
+        "inicio": 44.25,
+        "fin": 46.0,
+        "valor": 1
+      },
+      {
+        "inicio": 46.0,
+        "fin": 47.0,
+        "valor": 3
+      },
+      {
+        "inicio": 47.0,
+        "fin": 47.75,
+        "valor": 4
+      },
+      {
+        "inicio": 47.75,
+        "fin": 48.0,
+        "valor": 1
+      },
+      {
+        "inicio": 48.0,
+        "fin": 50.0,
+        "valor": 3
+      },
+      {
+        "inicio": 50.0,
+        "fin": 50.75,
+        "valor": 0
+      },
+      {
+        "inicio": 50.75,
+        "fin": 51.0,
+        "valor": 3
+      },
+      {
+        "inicio": 51.0,
+        "fin": 51.25,
+        "valor": 1
+      },
+      {
+        "inicio": 51.25,
+        "fin": 51.75,
+        "valor": 2
+      },
+      {
+        "inicio": 51.75,
+        "fin": 52.0,
+        "valor": 1
+      },
+      {
+        "inicio": 52.0,
+        "fin": 53.25,
+        "valor": 4
+      },
+      {
+        "inicio": 53.25,
+        "fin": 54.25,
+        "valor": 2
+      },
+      {
+        "inicio": 54.25,
+        "fin": 55.0,
+        "valor": 1
+      },
+      {
+        "inicio": 55.0,
+        "fin": 56.0,
+        "valor": 2
+      },
+      {
+        "inicio": 56.0,
+        "fin": 60.75,
+        "valor": 1
+      },
+      {
+        "inicio": 60.75,
+        "fin": 61.0,
+        "valor": 2
+      },
+      {
+        "inicio": 61.0,
+        "fin": 63.08,
+        "valor": 0
+      }
+    ]
+  },
+  "Audio 2": {
+    "duracion": 38.88,
+    "manual": [
+      {
+        "inicio": 0.0,
+        "fin": 4.0,
+        "valor": 0
+      },
+      {
+        "inicio": 4.0,
+        "fin": 5.0,
+        "valor": -1
+      },
+      {
+        "inicio": 5.0,
+        "fin": 6.0,
+        "valor": 1
+      },
+      {
+        "inicio": 6.0,
+        "fin": 9.0,
+        "valor": -1
+      },
+      {
+        "inicio": 9.0,
+        "fin": 10.0,
+        "valor": 2
+      },
+      {
+        "inicio": 10.0,
+        "fin": 11.0,
+        "valor": -1
+      },
+      {
+        "inicio": 11.0,
+        "fin": 12.0,
+        "valor": 3
+      },
+      {
+        "inicio": 12.0,
+        "fin": 13.0,
+        "valor": -1
+      },
+      {
+        "inicio": 13.0,
+        "fin": 14.0,
+        "valor": 2
+      },
+      {
+        "inicio": 14.0,
+        "fin": 16.0,
+        "valor": 3
+      },
+      {
+        "inicio": 16.0,
+        "fin": 17.0,
+        "valor": -1
+      },
+      {
+        "inicio": 17.0,
+        "fin": 18.0,
+        "valor": 2
+      },
+      {
+        "inicio": 18.0,
+        "fin": 21.0,
+        "valor": 3
+      },
+      {
+        "inicio": 21.0,
+        "fin": 22.0,
+        "valor": -1
+      },
+      {
+        "inicio": 22.0,
+        "fin": 24.0,
+        "valor": 2
+      },
+      {
+        "inicio": 24.0,
+        "fin": 25.0,
+        "valor": -1
+      },
+      {
+        "inicio": 25.0,
+        "fin": 33.0,
+        "valor": 3
+      },
+      {
+        "inicio": 33.0,
+        "fin": 34.0,
+        "valor": -1
+      },
+      {
+        "inicio": 34.0,
+        "fin": 36.0,
+        "valor": 2
+      },
+      {
+        "inicio": 36.0,
+        "fin": 38.88,
+        "valor": -1
+      }
+    ],
+    "sistema": [
+      {
+        "inicio": 0.0,
+        "fin": 0.25,
+        "valor": -1
+      },
+      {
+        "inicio": 0.25,
+        "fin": 3.75,
+        "valor": 0
+      },
+      {
+        "inicio": 3.75,
+        "fin": 5.0,
+        "valor": -1
+      },
+      {
+        "inicio": 5.0,
+        "fin": 6.0,
+        "valor": 0
+      },
+      {
+        "inicio": 6.0,
+        "fin": 6.5,
+        "valor": -1
+      },
+      {
+        "inicio": 6.5,
+        "fin": 26.25,
+        "valor": 3
+      },
+      {
+        "inicio": 26.25,
+        "fin": 26.5,
+        "valor": -1
+      },
+      {
+        "inicio": 26.5,
+        "fin": 28.25,
+        "valor": 3
+      },
+      {
+        "inicio": 28.25,
+        "fin": 28.5,
+        "valor": -1
+      },
+      {
+        "inicio": 28.5,
+        "fin": 30.5,
+        "valor": 3
+      },
+      {
+        "inicio": 30.5,
+        "fin": 31.0,
+        "valor": -1
+      },
+      {
+        "inicio": 31.0,
+        "fin": 33.0,
+        "valor": 3
+      },
+      {
+        "inicio": 33.0,
+        "fin": 33.25,
+        "valor": -1
+      },
+      {
+        "inicio": 33.25,
+        "fin": 34.5,
+        "valor": 3
+      },
+      {
+        "inicio": 34.5,
+        "fin": 35.0,
+        "valor": -1
+      },
+      {
+        "inicio": 35.0,
+        "fin": 35.75,
+        "valor": 3
+      },
+      {
+        "inicio": 35.75,
+        "fin": 36.0,
+        "valor": -1
+      },
+      {
+        "inicio": 36.0,
+        "fin": 36.75,
+        "valor": 3
+      },
+      {
+        "inicio": 36.75,
+        "fin": 38.88,
+        "valor": -1
+      }
+    ],
+    "evaluacion": [
+      {
+        "inicio": 0.0,
+        "fin": 0.25,
+        "valor": 2
+      },
+      {
+        "inicio": 0.25,
+        "fin": 3.75,
+        "valor": 1
+      },
+      {
+        "inicio": 3.75,
+        "fin": 4.0,
+        "valor": 2
+      },
+      {
+        "inicio": 4.0,
+        "fin": 5.0,
+        "valor": 0
+      },
+      {
+        "inicio": 5.0,
+        "fin": 6.0,
+        "valor": 4
+      },
+      {
+        "inicio": 6.0,
+        "fin": 6.5,
+        "valor": 0
+      },
+      {
+        "inicio": 6.5,
+        "fin": 9.0,
+        "valor": 3
+      },
+      {
+        "inicio": 9.0,
+        "fin": 10.0,
+        "valor": 4
+      },
+      {
+        "inicio": 10.0,
+        "fin": 11.0,
+        "valor": 3
+      },
+      {
+        "inicio": 11.0,
+        "fin": 12.0,
+        "valor": 1
+      },
+      {
+        "inicio": 12.0,
+        "fin": 13.0,
+        "valor": 3
+      },
+      {
+        "inicio": 13.0,
+        "fin": 14.0,
+        "valor": 4
+      },
+      {
+        "inicio": 14.0,
+        "fin": 16.0,
+        "valor": 1
+      },
+      {
+        "inicio": 16.0,
+        "fin": 17.0,
+        "valor": 3
+      },
+      {
+        "inicio": 17.0,
+        "fin": 18.0,
+        "valor": 4
+      },
+      {
+        "inicio": 18.0,
+        "fin": 21.0,
+        "valor": 1
+      },
+      {
+        "inicio": 21.0,
+        "fin": 22.0,
+        "valor": 3
+      },
+      {
+        "inicio": 22.0,
+        "fin": 24.0,
+        "valor": 4
+      },
+      {
+        "inicio": 24.0,
+        "fin": 25.0,
+        "valor": 3
+      },
+      {
+        "inicio": 25.0,
+        "fin": 26.25,
+        "valor": 1
+      },
+      {
+        "inicio": 26.25,
+        "fin": 26.5,
+        "valor": 2
+      },
+      {
+        "inicio": 26.5,
+        "fin": 28.25,
+        "valor": 1
+      },
+      {
+        "inicio": 28.25,
+        "fin": 28.5,
+        "valor": 2
+      },
+      {
+        "inicio": 28.5,
+        "fin": 30.5,
+        "valor": 1
+      },
+      {
+        "inicio": 30.5,
+        "fin": 31.0,
+        "valor": 2
+      },
+      {
+        "inicio": 31.0,
+        "fin": 33.0,
+        "valor": 1
+      },
+      {
+        "inicio": 33.0,
+        "fin": 33.25,
+        "valor": 0
+      },
+      {
+        "inicio": 33.25,
+        "fin": 34.0,
+        "valor": 3
+      },
+      {
+        "inicio": 34.0,
+        "fin": 34.5,
+        "valor": 4
+      },
+      {
+        "inicio": 34.5,
+        "fin": 35.0,
+        "valor": 2
+      },
+      {
+        "inicio": 35.0,
+        "fin": 35.75,
+        "valor": 4
+      },
+      {
+        "inicio": 35.75,
+        "fin": 36.0,
+        "valor": 2
+      },
+      {
+        "inicio": 36.0,
+        "fin": 36.75,
+        "valor": 3
+      },
+      {
+        "inicio": 36.75,
+        "fin": 38.88,
+        "valor": 0
+      }
+    ]
+  },
+  "Audio 3": {
+    "duracion": 66.32,
+    "manual": [
+      {
+        "inicio": 0.0,
+        "fin": 2.0,
+        "valor": -1
+      },
+      {
+        "inicio": 2.0,
+        "fin": 5.0,
+        "valor": 0
+      },
+      {
+        "inicio": 5.0,
+        "fin": 7.0,
+        "valor": -1
+      },
+      {
+        "inicio": 7.0,
+        "fin": 8.0,
+        "valor": 0
+      },
+      {
+        "inicio": 8.0,
+        "fin": 11.0,
+        "valor": -1
+      },
+      {
+        "inicio": 11.0,
+        "fin": 20.0,
+        "valor": 1
+      },
+      {
+        "inicio": 20.0,
+        "fin": 22.0,
+        "valor": -1
+      },
+      {
+        "inicio": 22.0,
+        "fin": 27.0,
+        "valor": 1
+      },
+      {
+        "inicio": 27.0,
+        "fin": 29.0,
+        "valor": -1
+      },
+      {
+        "inicio": 29.0,
+        "fin": 30.0,
+        "valor": 2
+      },
+      {
+        "inicio": 30.0,
+        "fin": 31.0,
+        "valor": 1
+      },
+      {
+        "inicio": 31.0,
+        "fin": 32.0,
+        "valor": -1
+      },
+      {
+        "inicio": 32.0,
+        "fin": 33.0,
+        "valor": 2
+      },
+      {
+        "inicio": 33.0,
+        "fin": 35.0,
+        "valor": -1
+      },
+      {
+        "inicio": 35.0,
+        "fin": 39.0,
+        "valor": 1
+      },
+      {
+        "inicio": 39.0,
+        "fin": 40.0,
+        "valor": -1
+      },
+      {
+        "inicio": 40.0,
+        "fin": 42.0,
+        "valor": 2
+      },
+      {
+        "inicio": 42.0,
+        "fin": 43.0,
+        "valor": -1
+      },
+      {
+        "inicio": 43.0,
+        "fin": 47.0,
+        "valor": 1
+      },
+      {
+        "inicio": 47.0,
+        "fin": 48.0,
+        "valor": -1
+      },
+      {
+        "inicio": 48.0,
+        "fin": 52.0,
+        "valor": 2
+      },
+      {
+        "inicio": 52.0,
+        "fin": 53.0,
+        "valor": -1
+      },
+      {
+        "inicio": 53.0,
+        "fin": 59.0,
+        "valor": 1
+      },
+      {
+        "inicio": 59.0,
+        "fin": 61.0,
+        "valor": -1
+      },
+      {
+        "inicio": 61.0,
+        "fin": 62.0,
+        "valor": 1
+      },
+      {
+        "inicio": 62.0,
+        "fin": 63.0,
+        "valor": -1
+      },
+      {
+        "inicio": 63.0,
+        "fin": 64.0,
+        "valor": 2
+      },
+      {
+        "inicio": 64.0,
+        "fin": 66.32,
+        "valor": -1
+      }
+    ],
+    "sistema": [
+      {
+        "inicio": 0.0,
+        "fin": 0.75,
+        "valor": -1
+      },
+      {
+        "inicio": 0.75,
+        "fin": 6.0,
+        "valor": 0
+      },
+      {
+        "inicio": 6.0,
+        "fin": 7.0,
+        "valor": -1
+      },
+      {
+        "inicio": 7.0,
+        "fin": 8.25,
+        "valor": 0
+      },
+      {
+        "inicio": 8.25,
+        "fin": 9.0,
+        "valor": -1
+      },
+      {
+        "inicio": 9.0,
+        "fin": 19.75,
+        "valor": 1
+      },
+      {
+        "inicio": 19.75,
+        "fin": 21.25,
+        "valor": -1
+      },
+      {
+        "inicio": 21.25,
+        "fin": 23.5,
+        "valor": 1
+      },
+      {
+        "inicio": 23.5,
+        "fin": 24.5,
+        "valor": -1
+      },
+      {
+        "inicio": 24.5,
+        "fin": 25.75,
+        "valor": 1
+      },
+      {
+        "inicio": 25.75,
+        "fin": 26.0,
+        "valor": -1
+      },
+      {
+        "inicio": 26.0,
+        "fin": 27.75,
+        "valor": 1
+      },
+      {
+        "inicio": 27.75,
+        "fin": 28.25,
+        "valor": -1
+      },
+      {
+        "inicio": 28.25,
+        "fin": 28.75,
+        "valor": 2
+      },
+      {
+        "inicio": 28.75,
+        "fin": 29.0,
+        "valor": -1
+      },
+      {
+        "inicio": 29.0,
+        "fin": 30.5,
+        "valor": 2
+      },
+      {
+        "inicio": 30.5,
+        "fin": 30.75,
+        "valor": -1
+      },
+      {
+        "inicio": 30.75,
+        "fin": 33.5,
+        "valor": 2
+      },
+      {
+        "inicio": 33.5,
+        "fin": 34.5,
+        "valor": 1
+      },
+      {
+        "inicio": 34.5,
+        "fin": 34.75,
+        "valor": -1
+      },
+      {
+        "inicio": 34.75,
+        "fin": 35.25,
+        "valor": 1
+      },
+      {
+        "inicio": 35.25,
+        "fin": 35.5,
+        "valor": -1
+      },
+      {
+        "inicio": 35.5,
+        "fin": 36.0,
+        "valor": 1
+      },
+      {
+        "inicio": 36.0,
+        "fin": 36.75,
+        "valor": -1
+      },
+      {
+        "inicio": 36.75,
+        "fin": 38.25,
+        "valor": 1
+      },
+      {
+        "inicio": 38.25,
+        "fin": 38.5,
+        "valor": -1
+      },
+      {
+        "inicio": 38.5,
+        "fin": 39.5,
+        "valor": 1
+      },
+      {
+        "inicio": 39.5,
+        "fin": 41.75,
+        "valor": 2
+      },
+      {
+        "inicio": 41.75,
+        "fin": 42.0,
+        "valor": -1
+      },
+      {
+        "inicio": 42.0,
+        "fin": 42.25,
+        "valor": 2
+      },
+      {
+        "inicio": 42.25,
+        "fin": 42.75,
+        "valor": -1
+      },
+      {
+        "inicio": 42.75,
+        "fin": 47.0,
+        "valor": 1
+      },
+      {
+        "inicio": 47.0,
+        "fin": 54.0,
+        "valor": 2
+      },
+      {
+        "inicio": 54.0,
+        "fin": 54.5,
+        "valor": -1
+      },
+      {
+        "inicio": 54.5,
+        "fin": 56.75,
+        "valor": 1
+      },
+      {
+        "inicio": 56.75,
+        "fin": 57.0,
+        "valor": -1
+      },
+      {
+        "inicio": 57.0,
+        "fin": 58.25,
+        "valor": 1
+      },
+      {
+        "inicio": 58.25,
+        "fin": 58.5,
+        "valor": -1
+      },
+      {
+        "inicio": 58.5,
+        "fin": 59.5,
+        "valor": 1
+      },
+      {
+        "inicio": 59.5,
+        "fin": 60.5,
+        "valor": -1
+      },
+      {
+        "inicio": 60.5,
+        "fin": 61.0,
+        "valor": 1
+      },
+      {
+        "inicio": 61.0,
+        "fin": 61.5,
+        "valor": -1
+      },
+      {
+        "inicio": 61.5,
+        "fin": 62.5,
+        "valor": 1
+      },
+      {
+        "inicio": 62.5,
+        "fin": 62.75,
+        "valor": -1
+      },
+      {
+        "inicio": 62.75,
+        "fin": 63.75,
+        "valor": 2
+      },
+      {
+        "inicio": 63.75,
+        "fin": 66.32,
+        "valor": -1
+      }
+    ],
+    "evaluacion": [
+      {
+        "inicio": 0.0,
+        "fin": 0.75,
+        "valor": 0
+      },
+      {
+        "inicio": 0.75,
+        "fin": 2.0,
+        "valor": 3
+      },
+      {
+        "inicio": 2.0,
+        "fin": 5.0,
+        "valor": 1
+      },
+      {
+        "inicio": 5.0,
+        "fin": 6.0,
+        "valor": 3
+      },
+      {
+        "inicio": 6.0,
+        "fin": 7.0,
+        "valor": 0
+      },
+      {
+        "inicio": 7.0,
+        "fin": 8.0,
+        "valor": 1
+      },
+      {
+        "inicio": 8.0,
+        "fin": 8.25,
+        "valor": 3
+      },
+      {
+        "inicio": 8.25,
+        "fin": 9.0,
+        "valor": 0
+      },
+      {
+        "inicio": 9.0,
+        "fin": 11.0,
+        "valor": 3
+      },
+      {
+        "inicio": 11.0,
+        "fin": 19.75,
+        "valor": 1
+      },
+      {
+        "inicio": 19.75,
+        "fin": 20.0,
+        "valor": 2
+      },
+      {
+        "inicio": 20.0,
+        "fin": 21.25,
+        "valor": 0
+      },
+      {
+        "inicio": 21.25,
+        "fin": 22.0,
+        "valor": 3
+      },
+      {
+        "inicio": 22.0,
+        "fin": 23.5,
+        "valor": 1
+      },
+      {
+        "inicio": 23.5,
+        "fin": 24.5,
+        "valor": 2
+      },
+      {
+        "inicio": 24.5,
+        "fin": 25.75,
+        "valor": 1
+      },
+      {
+        "inicio": 25.75,
+        "fin": 26.0,
+        "valor": 2
+      },
+      {
+        "inicio": 26.0,
+        "fin": 27.0,
+        "valor": 1
+      },
+      {
+        "inicio": 27.0,
+        "fin": 27.75,
+        "valor": 3
+      },
+      {
+        "inicio": 27.75,
+        "fin": 28.25,
+        "valor": 0
+      },
+      {
+        "inicio": 28.25,
+        "fin": 28.75,
+        "valor": 3
+      },
+      {
+        "inicio": 28.75,
+        "fin": 29.0,
+        "valor": 0
+      },
+      {
+        "inicio": 29.0,
+        "fin": 30.0,
+        "valor": 1
+      },
+      {
+        "inicio": 30.0,
+        "fin": 30.5,
+        "valor": 4
+      },
+      {
+        "inicio": 30.5,
+        "fin": 30.75,
+        "valor": 2
+      },
+      {
+        "inicio": 30.75,
+        "fin": 31.0,
+        "valor": 4
+      },
+      {
+        "inicio": 31.0,
+        "fin": 32.0,
+        "valor": 3
+      },
+      {
+        "inicio": 32.0,
+        "fin": 33.0,
+        "valor": 1
+      },
+      {
+        "inicio": 33.0,
+        "fin": 34.5,
+        "valor": 3
+      },
+      {
+        "inicio": 34.5,
+        "fin": 34.75,
+        "valor": 0
+      },
+      {
+        "inicio": 34.75,
+        "fin": 35.0,
+        "valor": 3
+      },
+      {
+        "inicio": 35.0,
+        "fin": 35.25,
+        "valor": 1
+      },
+      {
+        "inicio": 35.25,
+        "fin": 35.5,
+        "valor": 2
+      },
+      {
+        "inicio": 35.5,
+        "fin": 36.0,
+        "valor": 1
+      },
+      {
+        "inicio": 36.0,
+        "fin": 36.75,
+        "valor": 2
+      },
+      {
+        "inicio": 36.75,
+        "fin": 38.25,
+        "valor": 1
+      },
+      {
+        "inicio": 38.25,
+        "fin": 38.5,
+        "valor": 2
+      },
+      {
+        "inicio": 38.5,
+        "fin": 39.0,
+        "valor": 1
+      },
+      {
+        "inicio": 39.0,
+        "fin": 40.0,
+        "valor": 3
+      },
+      {
+        "inicio": 40.0,
+        "fin": 41.75,
+        "valor": 1
+      },
+      {
+        "inicio": 41.75,
+        "fin": 42.0,
+        "valor": 2
+      },
+      {
+        "inicio": 42.0,
+        "fin": 42.25,
+        "valor": 3
+      },
+      {
+        "inicio": 42.25,
+        "fin": 42.75,
+        "valor": 0
+      },
+      {
+        "inicio": 42.75,
+        "fin": 43.0,
+        "valor": 3
+      },
+      {
+        "inicio": 43.0,
+        "fin": 47.0,
+        "valor": 1
+      },
+      {
+        "inicio": 47.0,
+        "fin": 48.0,
+        "valor": 3
+      },
+      {
+        "inicio": 48.0,
+        "fin": 52.0,
+        "valor": 1
+      },
+      {
+        "inicio": 52.0,
+        "fin": 53.0,
+        "valor": 3
+      },
+      {
+        "inicio": 53.0,
+        "fin": 54.0,
+        "valor": 4
+      },
+      {
+        "inicio": 54.0,
+        "fin": 54.5,
+        "valor": 2
+      },
+      {
+        "inicio": 54.5,
+        "fin": 56.75,
+        "valor": 1
+      },
+      {
+        "inicio": 56.75,
+        "fin": 57.0,
+        "valor": 2
+      },
+      {
+        "inicio": 57.0,
+        "fin": 58.25,
+        "valor": 1
+      },
+      {
+        "inicio": 58.25,
+        "fin": 58.5,
+        "valor": 2
+      },
+      {
+        "inicio": 58.5,
+        "fin": 59.0,
+        "valor": 1
+      },
+      {
+        "inicio": 59.0,
+        "fin": 59.5,
+        "valor": 3
+      },
+      {
+        "inicio": 59.5,
+        "fin": 60.5,
+        "valor": 0
+      },
+      {
+        "inicio": 60.5,
+        "fin": 61.0,
+        "valor": 3
+      },
+      {
+        "inicio": 61.0,
+        "fin": 61.5,
+        "valor": 2
+      },
+      {
+        "inicio": 61.5,
+        "fin": 62.0,
+        "valor": 1
+      },
+      {
+        "inicio": 62.0,
+        "fin": 62.5,
+        "valor": 3
+      },
+      {
+        "inicio": 62.5,
+        "fin": 62.75,
+        "valor": 0
+      },
+      {
+        "inicio": 62.75,
+        "fin": 63.0,
+        "valor": 3
+      },
+      {
+        "inicio": 63.0,
+        "fin": 63.75,
+        "valor": 1
+      },
+      {
+        "inicio": 63.75,
+        "fin": 64.0,
+        "valor": 2
+      },
+      {
+        "inicio": 64.0,
+        "fin": 66.32,
+        "valor": 0
+      }
+    ]
+  },
+  "Audio 4": {
+    "duracion": 67.16,
+    "manual": [
+      {
+        "inicio": 0.0,
+        "fin": 4.0,
+        "valor": -1
+      },
+      {
+        "inicio": 4.0,
+        "fin": 8.0,
+        "valor": 0
+      },
+      {
+        "inicio": 8.0,
+        "fin": 12.0,
+        "valor": -1
+      },
+      {
+        "inicio": 12.0,
+        "fin": 14.0,
+        "valor": 1
+      },
+      {
+        "inicio": 14.0,
+        "fin": 15.0,
+        "valor": -1
+      },
+      {
+        "inicio": 15.0,
+        "fin": 16.0,
+        "valor": 2
+      },
+      {
+        "inicio": 16.0,
+        "fin": 17.0,
+        "valor": -1
+      },
+      {
+        "inicio": 17.0,
+        "fin": 18.0,
+        "valor": 1
+      },
+      {
+        "inicio": 18.0,
+        "fin": 20.0,
+        "valor": 2
+      },
+      {
+        "inicio": 20.0,
+        "fin": 21.0,
+        "valor": -1
+      },
+      {
+        "inicio": 21.0,
+        "fin": 25.0,
+        "valor": 1
+      },
+      {
+        "inicio": 25.0,
+        "fin": 27.0,
+        "valor": 2
+      },
+      {
+        "inicio": 27.0,
+        "fin": 28.0,
+        "valor": -1
+      },
+      {
+        "inicio": 28.0,
+        "fin": 31.0,
+        "valor": 1
+      },
+      {
+        "inicio": 31.0,
+        "fin": 34.0,
+        "valor": 2
+      },
+      {
+        "inicio": 34.0,
+        "fin": 36.0,
+        "valor": 1
+      },
+      {
+        "inicio": 36.0,
+        "fin": 37.0,
+        "valor": -1
+      },
+      {
+        "inicio": 37.0,
+        "fin": 40.0,
+        "valor": 2
+      },
+      {
+        "inicio": 40.0,
+        "fin": 43.0,
+        "valor": 1
+      },
+      {
+        "inicio": 43.0,
+        "fin": 44.0,
+        "valor": -1
+      },
+      {
+        "inicio": 44.0,
+        "fin": 45.0,
+        "valor": 2
+      },
+      {
+        "inicio": 45.0,
+        "fin": 48.0,
+        "valor": 1
+      },
+      {
+        "inicio": 48.0,
+        "fin": 49.0,
+        "valor": 3
+      },
+      {
+        "inicio": 49.0,
+        "fin": 50.0,
+        "valor": -1
+      },
+      {
+        "inicio": 50.0,
+        "fin": 52.0,
+        "valor": 1
+      },
+      {
+        "inicio": 52.0,
+        "fin": 53.0,
+        "valor": 3
+      },
+      {
+        "inicio": 53.0,
+        "fin": 56.0,
+        "valor": 1
+      },
+      {
+        "inicio": 56.0,
+        "fin": 57.0,
+        "valor": -1
+      },
+      {
+        "inicio": 57.0,
+        "fin": 62.0,
+        "valor": 2
+      },
+      {
+        "inicio": 62.0,
+        "fin": 64.0,
+        "valor": 1
+      },
+      {
+        "inicio": 64.0,
+        "fin": 67.16,
+        "valor": -1
+      }
+    ],
+    "sistema": [
+      {
+        "inicio": 0.0,
+        "fin": 2.25,
+        "valor": -1
+      },
+      {
+        "inicio": 2.25,
+        "fin": 4.0,
+        "valor": 0
+      },
+      {
+        "inicio": 4.0,
+        "fin": 4.25,
+        "valor": -1
+      },
+      {
+        "inicio": 4.25,
+        "fin": 5.25,
+        "valor": 1
+      },
+      {
+        "inicio": 5.25,
+        "fin": 6.0,
+        "valor": -1
+      },
+      {
+        "inicio": 6.0,
+        "fin": 7.0,
+        "valor": 1
+      },
+      {
+        "inicio": 7.0,
+        "fin": 7.5,
+        "valor": -1
+      },
+      {
+        "inicio": 7.5,
+        "fin": 8.75,
+        "valor": 1
+      },
+      {
+        "inicio": 8.75,
+        "fin": 10.75,
+        "valor": -1
+      },
+      {
+        "inicio": 10.75,
+        "fin": 18.5,
+        "valor": 1
+      },
+      {
+        "inicio": 18.5,
+        "fin": 18.75,
+        "valor": -1
+      },
+      {
+        "inicio": 18.75,
+        "fin": 21.0,
+        "valor": 2
+      },
+      {
+        "inicio": 21.0,
+        "fin": 21.5,
+        "valor": -1
+      },
+      {
+        "inicio": 21.5,
+        "fin": 22.75,
+        "valor": 1
+      },
+      {
+        "inicio": 22.75,
+        "fin": 23.25,
+        "valor": -1
+      },
+      {
+        "inicio": 23.25,
+        "fin": 25.5,
+        "valor": 1
+      },
+      {
+        "inicio": 25.5,
+        "fin": 26.25,
+        "valor": -1
+      },
+      {
+        "inicio": 26.25,
+        "fin": 28.5,
+        "valor": 1
+      },
+      {
+        "inicio": 28.5,
+        "fin": 29.25,
+        "valor": -1
+      },
+      {
+        "inicio": 29.25,
+        "fin": 31.0,
+        "valor": 1
+      },
+      {
+        "inicio": 31.0,
+        "fin": 31.25,
+        "valor": -1
+      },
+      {
+        "inicio": 31.25,
+        "fin": 33.5,
+        "valor": 2
+      },
+      {
+        "inicio": 33.5,
+        "fin": 34.0,
+        "valor": -1
+      },
+      {
+        "inicio": 34.0,
+        "fin": 37.5,
+        "valor": 1
+      },
+      {
+        "inicio": 37.5,
+        "fin": 40.0,
+        "valor": 2
+      },
+      {
+        "inicio": 40.0,
+        "fin": 44.5,
+        "valor": 1
+      },
+      {
+        "inicio": 44.5,
+        "fin": 45.25,
+        "valor": -1
+      },
+      {
+        "inicio": 45.25,
+        "fin": 46.25,
+        "valor": 1
+      },
+      {
+        "inicio": 46.25,
+        "fin": 46.5,
+        "valor": -1
+      },
+      {
+        "inicio": 46.5,
+        "fin": 47.0,
+        "valor": 1
+      },
+      {
+        "inicio": 47.0,
+        "fin": 47.5,
+        "valor": -1
+      },
+      {
+        "inicio": 47.5,
+        "fin": 48.25,
+        "valor": 1
+      },
+      {
+        "inicio": 48.25,
+        "fin": 48.5,
+        "valor": -1
+      },
+      {
+        "inicio": 48.5,
+        "fin": 53.0,
+        "valor": 1
+      },
+      {
+        "inicio": 53.0,
+        "fin": 53.25,
+        "valor": -1
+      },
+      {
+        "inicio": 53.25,
+        "fin": 54.5,
+        "valor": 1
+      },
+      {
+        "inicio": 54.5,
+        "fin": 54.75,
+        "valor": -1
+      },
+      {
+        "inicio": 54.75,
+        "fin": 56.25,
+        "valor": 1
+      },
+      {
+        "inicio": 56.25,
+        "fin": 56.75,
+        "valor": -1
+      },
+      {
+        "inicio": 56.75,
+        "fin": 58.5,
+        "valor": 2
+      },
+      {
+        "inicio": 58.5,
+        "fin": 58.75,
+        "valor": -1
+      },
+      {
+        "inicio": 58.75,
+        "fin": 60.25,
+        "valor": 2
+      },
+      {
+        "inicio": 60.25,
+        "fin": 60.5,
+        "valor": -1
+      },
+      {
+        "inicio": 60.5,
+        "fin": 63.75,
+        "valor": 2
+      },
+      {
+        "inicio": 63.75,
+        "fin": 64.5,
+        "valor": -1
+      },
+      {
+        "inicio": 64.5,
+        "fin": 64.75,
+        "valor": 0
+      },
+      {
+        "inicio": 64.75,
+        "fin": 67.16,
+        "valor": -1
+      }
+    ],
+    "evaluacion": [
+      {
+        "inicio": 0.0,
+        "fin": 2.25,
+        "valor": 0
+      },
+      {
+        "inicio": 2.25,
+        "fin": 4.0,
+        "valor": 3
+      },
+      {
+        "inicio": 4.0,
+        "fin": 4.25,
+        "valor": 2
+      },
+      {
+        "inicio": 4.25,
+        "fin": 5.25,
+        "valor": 4
+      },
+      {
+        "inicio": 5.25,
+        "fin": 6.0,
+        "valor": 2
+      },
+      {
+        "inicio": 6.0,
+        "fin": 7.0,
+        "valor": 4
+      },
+      {
+        "inicio": 7.0,
+        "fin": 7.5,
+        "valor": 2
+      },
+      {
+        "inicio": 7.5,
+        "fin": 8.0,
+        "valor": 4
+      },
+      {
+        "inicio": 8.0,
+        "fin": 8.75,
+        "valor": 3
+      },
+      {
+        "inicio": 8.75,
+        "fin": 10.75,
+        "valor": 0
+      },
+      {
+        "inicio": 10.75,
+        "fin": 12.0,
+        "valor": 3
+      },
+      {
+        "inicio": 12.0,
+        "fin": 14.0,
+        "valor": 1
+      },
+      {
+        "inicio": 14.0,
+        "fin": 15.0,
+        "valor": 3
+      },
+      {
+        "inicio": 15.0,
+        "fin": 16.0,
+        "valor": 4
+      },
+      {
+        "inicio": 16.0,
+        "fin": 17.0,
+        "valor": 3
+      },
+      {
+        "inicio": 17.0,
+        "fin": 18.0,
+        "valor": 1
+      },
+      {
+        "inicio": 18.0,
+        "fin": 18.5,
+        "valor": 4
+      },
+      {
+        "inicio": 18.5,
+        "fin": 18.75,
+        "valor": 2
+      },
+      {
+        "inicio": 18.75,
+        "fin": 20.0,
+        "valor": 1
+      },
+      {
+        "inicio": 20.0,
+        "fin": 21.0,
+        "valor": 3
+      },
+      {
+        "inicio": 21.0,
+        "fin": 21.5,
+        "valor": 2
+      },
+      {
+        "inicio": 21.5,
+        "fin": 22.75,
+        "valor": 1
+      },
+      {
+        "inicio": 22.75,
+        "fin": 23.25,
+        "valor": 2
+      },
+      {
+        "inicio": 23.25,
+        "fin": 25.0,
+        "valor": 1
+      },
+      {
+        "inicio": 25.0,
+        "fin": 25.5,
+        "valor": 4
+      },
+      {
+        "inicio": 25.5,
+        "fin": 26.25,
+        "valor": 2
+      },
+      {
+        "inicio": 26.25,
+        "fin": 27.0,
+        "valor": 4
+      },
+      {
+        "inicio": 27.0,
+        "fin": 28.0,
+        "valor": 3
+      },
+      {
+        "inicio": 28.0,
+        "fin": 28.5,
+        "valor": 1
+      },
+      {
+        "inicio": 28.5,
+        "fin": 29.25,
+        "valor": 2
+      },
+      {
+        "inicio": 29.25,
+        "fin": 31.0,
+        "valor": 1
+      },
+      {
+        "inicio": 31.0,
+        "fin": 31.25,
+        "valor": 2
+      },
+      {
+        "inicio": 31.25,
+        "fin": 33.5,
+        "valor": 1
+      },
+      {
+        "inicio": 33.5,
+        "fin": 34.0,
+        "valor": 2
+      },
+      {
+        "inicio": 34.0,
+        "fin": 36.0,
+        "valor": 1
+      },
+      {
+        "inicio": 36.0,
+        "fin": 37.0,
+        "valor": 3
+      },
+      {
+        "inicio": 37.0,
+        "fin": 37.5,
+        "valor": 4
+      },
+      {
+        "inicio": 37.5,
+        "fin": 43.0,
+        "valor": 1
+      },
+      {
+        "inicio": 43.0,
+        "fin": 44.0,
+        "valor": 3
+      },
+      {
+        "inicio": 44.0,
+        "fin": 44.5,
+        "valor": 4
+      },
+      {
+        "inicio": 44.5,
+        "fin": 45.25,
+        "valor": 2
+      },
+      {
+        "inicio": 45.25,
+        "fin": 46.25,
+        "valor": 1
+      },
+      {
+        "inicio": 46.25,
+        "fin": 46.5,
+        "valor": 2
+      },
+      {
+        "inicio": 46.5,
+        "fin": 47.0,
+        "valor": 1
+      },
+      {
+        "inicio": 47.0,
+        "fin": 47.5,
+        "valor": 2
+      },
+      {
+        "inicio": 47.5,
+        "fin": 48.0,
+        "valor": 1
+      },
+      {
+        "inicio": 48.0,
+        "fin": 48.25,
+        "valor": 4
+      },
+      {
+        "inicio": 48.25,
+        "fin": 48.5,
+        "valor": 2
+      },
+      {
+        "inicio": 48.5,
+        "fin": 49.0,
+        "valor": 4
+      },
+      {
+        "inicio": 49.0,
+        "fin": 50.0,
+        "valor": 3
+      },
+      {
+        "inicio": 50.0,
+        "fin": 52.0,
+        "valor": 1
+      },
+      {
+        "inicio": 52.0,
+        "fin": 53.0,
+        "valor": 4
+      },
+      {
+        "inicio": 53.0,
+        "fin": 53.25,
+        "valor": 2
+      },
+      {
+        "inicio": 53.25,
+        "fin": 54.5,
+        "valor": 1
+      },
+      {
+        "inicio": 54.5,
+        "fin": 54.75,
+        "valor": 2
+      },
+      {
+        "inicio": 54.75,
+        "fin": 56.0,
+        "valor": 1
+      },
+      {
+        "inicio": 56.0,
+        "fin": 56.25,
+        "valor": 3
+      },
+      {
+        "inicio": 56.25,
+        "fin": 56.75,
+        "valor": 0
+      },
+      {
+        "inicio": 56.75,
+        "fin": 57.0,
+        "valor": 3
+      },
+      {
+        "inicio": 57.0,
+        "fin": 58.5,
+        "valor": 1
+      },
+      {
+        "inicio": 58.5,
+        "fin": 58.75,
+        "valor": 2
+      },
+      {
+        "inicio": 58.75,
+        "fin": 60.25,
+        "valor": 1
+      },
+      {
+        "inicio": 60.25,
+        "fin": 60.5,
+        "valor": 2
+      },
+      {
+        "inicio": 60.5,
+        "fin": 62.0,
+        "valor": 1
+      },
+      {
+        "inicio": 62.0,
+        "fin": 63.75,
+        "valor": 4
+      },
+      {
+        "inicio": 63.75,
+        "fin": 64.0,
+        "valor": 2
+      },
+      {
+        "inicio": 64.0,
+        "fin": 64.5,
+        "valor": 0
+      },
+      {
+        "inicio": 64.5,
+        "fin": 64.75,
+        "valor": 3
+      },
+      {
+        "inicio": 64.75,
+        "fin": 67.16,
+        "valor": 0
+      }
+    ]
+  },
+  "Audio 5": {
+    "duracion": 61.58,
+    "manual": [
+      {
+        "inicio": 0.0,
+        "fin": 12.0,
+        "valor": 0
+      },
+      {
+        "inicio": 12.0,
+        "fin": 13.0,
+        "valor": -1
+      },
+      {
+        "inicio": 13.0,
+        "fin": 26.0,
+        "valor": 1
+      },
+      {
+        "inicio": 26.0,
+        "fin": 28.0,
+        "valor": -1
+      },
+      {
+        "inicio": 28.0,
+        "fin": 45.0,
+        "valor": 2
+      },
+      {
+        "inicio": 45.0,
+        "fin": 47.0,
+        "valor": -1
+      },
+      {
+        "inicio": 47.0,
+        "fin": 56.0,
+        "valor": 0
+      },
+      {
+        "inicio": 56.0,
+        "fin": 58.0,
+        "valor": -1
+      },
+      {
+        "inicio": 58.0,
+        "fin": 61.58,
+        "valor": 2
+      }
+    ],
+    "sistema": [
+      {
+        "inicio": 0.0,
+        "fin": 5.5,
+        "valor": 0
+      },
+      {
+        "inicio": 5.5,
+        "fin": 6.0,
+        "valor": -1
+      },
+      {
+        "inicio": 6.0,
+        "fin": 16.5,
+        "valor": 0
+      },
+      {
+        "inicio": 16.5,
+        "fin": 16.75,
+        "valor": -1
+      },
+      {
+        "inicio": 16.75,
+        "fin": 25.0,
+        "valor": 0
+      },
+      {
+        "inicio": 25.0,
+        "fin": 25.25,
+        "valor": -1
+      },
+      {
+        "inicio": 25.25,
+        "fin": 26.75,
+        "valor": 0
+      },
+      {
+        "inicio": 26.75,
+        "fin": 46.0,
+        "valor": 2
+      },
+      {
+        "inicio": 46.0,
+        "fin": 56.5,
+        "valor": 0
+      },
+      {
+        "inicio": 56.5,
+        "fin": 61.5,
+        "valor": 2
+      },
+      {
+        "inicio": 61.5,
+        "fin": 61.58,
+        "valor": -1
+      }
+    ],
+    "evaluacion": [
+      {
+        "inicio": 0.0,
+        "fin": 5.5,
+        "valor": 1
+      },
+      {
+        "inicio": 5.5,
+        "fin": 6.0,
+        "valor": 2
+      },
+      {
+        "inicio": 6.0,
+        "fin": 12.0,
+        "valor": 1
+      },
+      {
+        "inicio": 12.0,
+        "fin": 13.0,
+        "valor": 3
+      },
+      {
+        "inicio": 13.0,
+        "fin": 16.5,
+        "valor": 4
+      },
+      {
+        "inicio": 16.5,
+        "fin": 16.75,
+        "valor": 2
+      },
+      {
+        "inicio": 16.75,
+        "fin": 25.0,
+        "valor": 4
+      },
+      {
+        "inicio": 25.0,
+        "fin": 25.25,
+        "valor": 2
+      },
+      {
+        "inicio": 25.25,
+        "fin": 26.0,
+        "valor": 4
+      },
+      {
+        "inicio": 26.0,
+        "fin": 28.0,
+        "valor": 3
+      },
+      {
+        "inicio": 28.0,
+        "fin": 45.0,
+        "valor": 1
+      },
+      {
+        "inicio": 45.0,
+        "fin": 47.0,
+        "valor": 3
+      },
+      {
+        "inicio": 47.0,
+        "fin": 56.0,
+        "valor": 1
+      },
+      {
+        "inicio": 56.0,
+        "fin": 58.0,
+        "valor": 3
+      },
+      {
+        "inicio": 58.0,
+        "fin": 61.5,
+        "valor": 1
+      },
+      {
+        "inicio": 61.5,
+        "fin": 61.58,
+        "valor": 2
+      }
+    ]
+  },
+  "Audio 6": {
+    "duracion": 88.12,
+    "manual": [
+      {
+        "inicio": 0.0,
+        "fin": 12.0,
+        "valor": 0
+      },
+      {
+        "inicio": 12.0,
+        "fin": 13.0,
+        "valor": -1
+      },
+      {
+        "inicio": 13.0,
+        "fin": 30.0,
+        "valor": 1
+      },
+      {
+        "inicio": 30.0,
+        "fin": 32.0,
+        "valor": 0
+      },
+      {
+        "inicio": 32.0,
+        "fin": 33.0,
+        "valor": -1
+      },
+      {
+        "inicio": 33.0,
+        "fin": 41.0,
+        "valor": 1
+      },
+      {
+        "inicio": 41.0,
+        "fin": 43.0,
+        "valor": -1
+      },
+      {
+        "inicio": 43.0,
+        "fin": 47.0,
+        "valor": 0
+      },
+      {
+        "inicio": 47.0,
+        "fin": 48.0,
+        "valor": -1
+      },
+      {
+        "inicio": 48.0,
+        "fin": 56.0,
+        "valor": 1
+      },
+      {
+        "inicio": 56.0,
+        "fin": 58.0,
+        "valor": -1
+      },
+      {
+        "inicio": 58.0,
+        "fin": 67.0,
+        "valor": 0
+      },
+      {
+        "inicio": 67.0,
+        "fin": 68.0,
+        "valor": -1
+      },
+      {
+        "inicio": 68.0,
+        "fin": 85.0,
+        "valor": 1
+      },
+      {
+        "inicio": 85.0,
+        "fin": 86.0,
+        "valor": -1
+      },
+      {
+        "inicio": 86.0,
+        "fin": 88.0,
+        "valor": 0
+      },
+      {
+        "inicio": 88.0,
+        "fin": 88.12,
+        "valor": -1
+      }
+    ],
+    "sistema": [
+      {
+        "inicio": 0.0,
+        "fin": 0.25,
+        "valor": -1
+      },
+      {
+        "inicio": 0.25,
+        "fin": 11.75,
+        "valor": 0
+      },
+      {
+        "inicio": 11.75,
+        "fin": 12.75,
+        "valor": 1
+      },
+      {
+        "inicio": 12.75,
+        "fin": 13.0,
+        "valor": -1
+      },
+      {
+        "inicio": 13.0,
+        "fin": 26.75,
+        "valor": 1
+      },
+      {
+        "inicio": 26.75,
+        "fin": 27.0,
+        "valor": -1
+      },
+      {
+        "inicio": 27.0,
+        "fin": 28.5,
+        "valor": 1
+      },
+      {
+        "inicio": 28.5,
+        "fin": 29.0,
+        "valor": -1
+      },
+      {
+        "inicio": 29.0,
+        "fin": 33.25,
+        "valor": 0
+      },
+      {
+        "inicio": 33.25,
+        "fin": 33.5,
+        "valor": -1
+      },
+      {
+        "inicio": 33.5,
+        "fin": 41.25,
+        "valor": 1
+      },
+      {
+        "inicio": 41.25,
+        "fin": 48.25,
+        "valor": 0
+      },
+      {
+        "inicio": 48.25,
+        "fin": 57.0,
+        "valor": 1
+      },
+      {
+        "inicio": 57.0,
+        "fin": 57.75,
+        "valor": -1
+      },
+      {
+        "inicio": 57.75,
+        "fin": 68.25,
+        "valor": 0
+      },
+      {
+        "inicio": 68.25,
+        "fin": 68.5,
+        "valor": -1
+      },
+      {
+        "inicio": 68.5,
+        "fin": 74.0,
+        "valor": 1
+      },
+      {
+        "inicio": 74.0,
+        "fin": 74.25,
+        "valor": -1
+      },
+      {
+        "inicio": 74.25,
+        "fin": 85.0,
+        "valor": 1
+      },
+      {
+        "inicio": 85.0,
+        "fin": 85.75,
+        "valor": 0
+      },
+      {
+        "inicio": 85.75,
+        "fin": 86.0,
+        "valor": -1
+      },
+      {
+        "inicio": 86.0,
+        "fin": 88.12,
+        "valor": 0
+      }
+    ],
+    "evaluacion": [
+      {
+        "inicio": 0.0,
+        "fin": 0.25,
+        "valor": 2
+      },
+      {
+        "inicio": 0.25,
+        "fin": 11.75,
+        "valor": 1
+      },
+      {
+        "inicio": 11.75,
+        "fin": 12.0,
+        "valor": 4
+      },
+      {
+        "inicio": 12.0,
+        "fin": 12.75,
+        "valor": 3
+      },
+      {
+        "inicio": 12.75,
+        "fin": 13.0,
+        "valor": 0
+      },
+      {
+        "inicio": 13.0,
+        "fin": 26.75,
+        "valor": 1
+      },
+      {
+        "inicio": 26.75,
+        "fin": 27.0,
+        "valor": 2
+      },
+      {
+        "inicio": 27.0,
+        "fin": 28.5,
+        "valor": 1
+      },
+      {
+        "inicio": 28.5,
+        "fin": 29.0,
+        "valor": 2
+      },
+      {
+        "inicio": 29.0,
+        "fin": 30.0,
+        "valor": 4
+      },
+      {
+        "inicio": 30.0,
+        "fin": 32.0,
+        "valor": 1
+      },
+      {
+        "inicio": 32.0,
+        "fin": 33.0,
+        "valor": 3
+      },
+      {
+        "inicio": 33.0,
+        "fin": 33.25,
+        "valor": 4
+      },
+      {
+        "inicio": 33.25,
+        "fin": 33.5,
+        "valor": 2
+      },
+      {
+        "inicio": 33.5,
+        "fin": 41.0,
+        "valor": 1
+      },
+      {
+        "inicio": 41.0,
+        "fin": 43.0,
+        "valor": 3
+      },
+      {
+        "inicio": 43.0,
+        "fin": 47.0,
+        "valor": 1
+      },
+      {
+        "inicio": 47.0,
+        "fin": 48.0,
+        "valor": 3
+      },
+      {
+        "inicio": 48.0,
+        "fin": 48.25,
+        "valor": 4
+      },
+      {
+        "inicio": 48.25,
+        "fin": 56.0,
+        "valor": 1
+      },
+      {
+        "inicio": 56.0,
+        "fin": 57.0,
+        "valor": 3
+      },
+      {
+        "inicio": 57.0,
+        "fin": 57.75,
+        "valor": 0
+      },
+      {
+        "inicio": 57.75,
+        "fin": 58.0,
+        "valor": 3
+      },
+      {
+        "inicio": 58.0,
+        "fin": 67.0,
+        "valor": 1
+      },
+      {
+        "inicio": 67.0,
+        "fin": 68.0,
+        "valor": 3
+      },
+      {
+        "inicio": 68.0,
+        "fin": 68.25,
+        "valor": 4
+      },
+      {
+        "inicio": 68.25,
+        "fin": 68.5,
+        "valor": 2
+      },
+      {
+        "inicio": 68.5,
+        "fin": 74.0,
+        "valor": 1
+      },
+      {
+        "inicio": 74.0,
+        "fin": 74.25,
+        "valor": 2
+      },
+      {
+        "inicio": 74.25,
+        "fin": 85.0,
+        "valor": 1
+      },
+      {
+        "inicio": 85.0,
+        "fin": 85.75,
+        "valor": 3
+      },
+      {
+        "inicio": 85.75,
+        "fin": 86.0,
+        "valor": 0
+      },
+      {
+        "inicio": 86.0,
+        "fin": 88.0,
+        "valor": 1
+      },
+      {
+        "inicio": 88.0,
+        "fin": 88.12,
+        "valor": 3
+      }
+    ]
+  },
+  "Audio 7": {
+    "duracion": 79.34,
+    "manual": [
+      {
+        "inicio": 0.0,
+        "fin": 5.0,
+        "valor": 0
+      },
+      {
+        "inicio": 5.0,
+        "fin": 6.0,
+        "valor": -1
+      },
+      {
+        "inicio": 6.0,
+        "fin": 11.0,
+        "valor": 1
+      },
+      {
+        "inicio": 11.0,
+        "fin": 13.0,
+        "valor": 0
+      },
+      {
+        "inicio": 13.0,
+        "fin": 27.0,
+        "valor": 1
+      },
+      {
+        "inicio": 27.0,
+        "fin": 28.0,
+        "valor": -1
+      },
+      {
+        "inicio": 28.0,
+        "fin": 35.0,
+        "valor": 0
+      },
+      {
+        "inicio": 35.0,
+        "fin": 44.0,
+        "valor": 1
+      },
+      {
+        "inicio": 44.0,
+        "fin": 45.0,
+        "valor": -1
+      },
+      {
+        "inicio": 45.0,
+        "fin": 50.0,
+        "valor": 0
+      },
+      {
+        "inicio": 50.0,
+        "fin": 60.0,
+        "valor": 1
+      },
+      {
+        "inicio": 60.0,
+        "fin": 61.0,
+        "valor": -1
+      },
+      {
+        "inicio": 61.0,
+        "fin": 65.0,
+        "valor": 0
+      },
+      {
+        "inicio": 65.0,
+        "fin": 66.0,
+        "valor": -1
+      },
+      {
+        "inicio": 66.0,
+        "fin": 72.0,
+        "valor": 1
+      },
+      {
+        "inicio": 72.0,
+        "fin": 73.0,
+        "valor": -1
+      },
+      {
+        "inicio": 73.0,
+        "fin": 74.0,
+        "valor": 0
+      },
+      {
+        "inicio": 74.0,
+        "fin": 75.0,
+        "valor": -1
+      },
+      {
+        "inicio": 75.0,
+        "fin": 76.0,
+        "valor": 1
+      },
+      {
+        "inicio": 76.0,
+        "fin": 78.0,
+        "valor": -1
+      },
+      {
+        "inicio": 78.0,
+        "fin": 79.0,
+        "valor": 0
+      },
+      {
+        "inicio": 79.0,
+        "fin": 79.34,
+        "valor": -1
+      }
+    ],
+    "sistema": [
+      {
+        "inicio": 0.0,
+        "fin": 0.25,
+        "valor": -1
+      },
+      {
+        "inicio": 0.25,
+        "fin": 5.5,
+        "valor": 0
+      },
+      {
+        "inicio": 5.5,
+        "fin": 10.25,
+        "valor": 1
+      },
+      {
+        "inicio": 10.25,
+        "fin": 11.25,
+        "valor": 0
+      },
+      {
+        "inicio": 11.25,
+        "fin": 11.5,
+        "valor": -1
+      },
+      {
+        "inicio": 11.5,
+        "fin": 13.0,
+        "valor": 0
+      },
+      {
+        "inicio": 13.0,
+        "fin": 13.25,
+        "valor": -1
+      },
+      {
+        "inicio": 13.25,
+        "fin": 14.25,
+        "valor": 0
+      },
+      {
+        "inicio": 14.25,
+        "fin": 17.75,
+        "valor": 1
+      },
+      {
+        "inicio": 17.75,
+        "fin": 18.0,
+        "valor": -1
+      },
+      {
+        "inicio": 18.0,
+        "fin": 23.5,
+        "valor": 1
+      },
+      {
+        "inicio": 23.5,
+        "fin": 24.0,
+        "valor": -1
+      },
+      {
+        "inicio": 24.0,
+        "fin": 26.75,
+        "valor": 1
+      },
+      {
+        "inicio": 26.75,
+        "fin": 31.5,
+        "valor": 0
+      },
+      {
+        "inicio": 31.5,
+        "fin": 32.0,
+        "valor": -1
+      },
+      {
+        "inicio": 32.0,
+        "fin": 36.25,
+        "valor": 0
+      },
+      {
+        "inicio": 36.25,
+        "fin": 37.75,
+        "valor": 1
+      },
+      {
+        "inicio": 37.75,
+        "fin": 38.0,
+        "valor": -1
+      },
+      {
+        "inicio": 38.0,
+        "fin": 39.0,
+        "valor": 1
+      },
+      {
+        "inicio": 39.0,
+        "fin": 39.25,
+        "valor": -1
+      },
+      {
+        "inicio": 39.25,
+        "fin": 44.5,
+        "valor": 1
+      },
+      {
+        "inicio": 44.5,
+        "fin": 45.0,
+        "valor": -1
+      },
+      {
+        "inicio": 45.0,
+        "fin": 51.0,
+        "valor": 0
+      },
+      {
+        "inicio": 51.0,
+        "fin": 55.25,
+        "valor": 1
+      },
+      {
+        "inicio": 55.25,
+        "fin": 55.75,
+        "valor": -1
+      },
+      {
+        "inicio": 55.75,
+        "fin": 58.0,
+        "valor": 1
+      },
+      {
+        "inicio": 58.0,
+        "fin": 58.25,
+        "valor": -1
+      },
+      {
+        "inicio": 58.25,
+        "fin": 59.25,
+        "valor": 1
+      },
+      {
+        "inicio": 59.25,
+        "fin": 60.25,
+        "valor": 0
+      },
+      {
+        "inicio": 60.25,
+        "fin": 60.5,
+        "valor": -1
+      },
+      {
+        "inicio": 60.5,
+        "fin": 66.5,
+        "valor": 0
+      },
+      {
+        "inicio": 66.5,
+        "fin": 70.5,
+        "valor": 1
+      },
+      {
+        "inicio": 70.5,
+        "fin": 70.75,
+        "valor": -1
+      },
+      {
+        "inicio": 70.75,
+        "fin": 74.75,
+        "valor": 0
+      },
+      {
+        "inicio": 74.75,
+        "fin": 75.0,
+        "valor": -1
+      },
+      {
+        "inicio": 75.0,
+        "fin": 77.25,
+        "valor": 0
+      },
+      {
+        "inicio": 77.25,
+        "fin": 77.5,
+        "valor": -1
+      },
+      {
+        "inicio": 77.5,
+        "fin": 79.25,
+        "valor": 0
+      },
+      {
+        "inicio": 79.25,
+        "fin": 79.34,
+        "valor": -1
+      }
+    ],
+    "evaluacion": [
+      {
+        "inicio": 0.0,
+        "fin": 0.25,
+        "valor": 2
+      },
+      {
+        "inicio": 0.25,
+        "fin": 5.0,
+        "valor": 1
+      },
+      {
+        "inicio": 5.0,
+        "fin": 6.0,
+        "valor": 3
+      },
+      {
+        "inicio": 6.0,
+        "fin": 10.25,
+        "valor": 1
+      },
+      {
+        "inicio": 10.25,
+        "fin": 11.0,
+        "valor": 4
+      },
+      {
+        "inicio": 11.0,
+        "fin": 11.25,
+        "valor": 1
+      },
+      {
+        "inicio": 11.25,
+        "fin": 11.5,
+        "valor": 2
+      },
+      {
+        "inicio": 11.5,
+        "fin": 13.0,
+        "valor": 1
+      },
+      {
+        "inicio": 13.0,
+        "fin": 13.25,
+        "valor": 2
+      },
+      {
+        "inicio": 13.25,
+        "fin": 14.25,
+        "valor": 4
+      },
+      {
+        "inicio": 14.25,
+        "fin": 17.75,
+        "valor": 1
+      },
+      {
+        "inicio": 17.75,
+        "fin": 18.0,
+        "valor": 2
+      },
+      {
+        "inicio": 18.0,
+        "fin": 23.5,
+        "valor": 1
+      },
+      {
+        "inicio": 23.5,
+        "fin": 24.0,
+        "valor": 2
+      },
+      {
+        "inicio": 24.0,
+        "fin": 26.75,
+        "valor": 1
+      },
+      {
+        "inicio": 26.75,
+        "fin": 27.0,
+        "valor": 4
+      },
+      {
+        "inicio": 27.0,
+        "fin": 28.0,
+        "valor": 3
+      },
+      {
+        "inicio": 28.0,
+        "fin": 31.5,
+        "valor": 1
+      },
+      {
+        "inicio": 31.5,
+        "fin": 32.0,
+        "valor": 2
+      },
+      {
+        "inicio": 32.0,
+        "fin": 35.0,
+        "valor": 1
+      },
+      {
+        "inicio": 35.0,
+        "fin": 36.25,
+        "valor": 4
+      },
+      {
+        "inicio": 36.25,
+        "fin": 37.75,
+        "valor": 1
+      },
+      {
+        "inicio": 37.75,
+        "fin": 38.0,
+        "valor": 2
+      },
+      {
+        "inicio": 38.0,
+        "fin": 39.0,
+        "valor": 1
+      },
+      {
+        "inicio": 39.0,
+        "fin": 39.25,
+        "valor": 2
+      },
+      {
+        "inicio": 39.25,
+        "fin": 44.0,
+        "valor": 1
+      },
+      {
+        "inicio": 44.0,
+        "fin": 44.5,
+        "valor": 3
+      },
+      {
+        "inicio": 44.5,
+        "fin": 45.0,
+        "valor": 0
+      },
+      {
+        "inicio": 45.0,
+        "fin": 50.0,
+        "valor": 1
+      },
+      {
+        "inicio": 50.0,
+        "fin": 51.0,
+        "valor": 4
+      },
+      {
+        "inicio": 51.0,
+        "fin": 55.25,
+        "valor": 1
+      },
+      {
+        "inicio": 55.25,
+        "fin": 55.75,
+        "valor": 2
+      },
+      {
+        "inicio": 55.75,
+        "fin": 58.0,
+        "valor": 1
+      },
+      {
+        "inicio": 58.0,
+        "fin": 58.25,
+        "valor": 2
+      },
+      {
+        "inicio": 58.25,
+        "fin": 59.25,
+        "valor": 1
+      },
+      {
+        "inicio": 59.25,
+        "fin": 60.0,
+        "valor": 4
+      },
+      {
+        "inicio": 60.0,
+        "fin": 60.25,
+        "valor": 3
+      },
+      {
+        "inicio": 60.25,
+        "fin": 60.5,
+        "valor": 0
+      },
+      {
+        "inicio": 60.5,
+        "fin": 61.0,
+        "valor": 3
+      },
+      {
+        "inicio": 61.0,
+        "fin": 65.0,
+        "valor": 1
+      },
+      {
+        "inicio": 65.0,
+        "fin": 66.0,
+        "valor": 3
+      },
+      {
+        "inicio": 66.0,
+        "fin": 66.5,
+        "valor": 4
+      },
+      {
+        "inicio": 66.5,
+        "fin": 70.5,
+        "valor": 1
+      },
+      {
+        "inicio": 70.5,
+        "fin": 70.75,
+        "valor": 2
+      },
+      {
+        "inicio": 70.75,
+        "fin": 72.0,
+        "valor": 4
+      },
+      {
+        "inicio": 72.0,
+        "fin": 73.0,
+        "valor": 3
+      },
+      {
+        "inicio": 73.0,
+        "fin": 74.0,
+        "valor": 1
+      },
+      {
+        "inicio": 74.0,
+        "fin": 74.75,
+        "valor": 3
+      },
+      {
+        "inicio": 74.75,
+        "fin": 75.0,
+        "valor": 0
+      },
+      {
+        "inicio": 75.0,
+        "fin": 76.0,
+        "valor": 4
+      },
+      {
+        "inicio": 76.0,
+        "fin": 77.25,
+        "valor": 3
+      },
+      {
+        "inicio": 77.25,
+        "fin": 77.5,
+        "valor": 0
+      },
+      {
+        "inicio": 77.5,
+        "fin": 78.0,
+        "valor": 3
+      },
+      {
+        "inicio": 78.0,
+        "fin": 79.0,
+        "valor": 1
+      },
+      {
+        "inicio": 79.0,
+        "fin": 79.25,
+        "valor": 3
+      },
+      {
+        "inicio": 79.25,
+        "fin": 79.34,
+        "valor": 0
+      }
+    ]
+  },
+  "Audio 8": {
+    "duracion": 41.04,
+    "manual": [
+      {
+        "inicio": 0.0,
+        "fin": 2.0,
+        "valor": 0
+      },
+      {
+        "inicio": 2.0,
+        "fin": 3.0,
+        "valor": -1
+      },
+      {
+        "inicio": 3.0,
+        "fin": 4.0,
+        "valor": 1
+      },
+      {
+        "inicio": 4.0,
+        "fin": 5.0,
+        "valor": -1
+      },
+      {
+        "inicio": 5.0,
+        "fin": 9.0,
+        "valor": 0
+      },
+      {
+        "inicio": 9.0,
+        "fin": 10.0,
+        "valor": -1
+      },
+      {
+        "inicio": 10.0,
+        "fin": 11.0,
+        "valor": 1
+      },
+      {
+        "inicio": 11.0,
+        "fin": 12.0,
+        "valor": -1
+      },
+      {
+        "inicio": 12.0,
+        "fin": 18.0,
+        "valor": 0
+      },
+      {
+        "inicio": 18.0,
+        "fin": 19.0,
+        "valor": -1
+      },
+      {
+        "inicio": 19.0,
+        "fin": 22.0,
+        "valor": 1
+      },
+      {
+        "inicio": 22.0,
+        "fin": 23.0,
+        "valor": -1
+      },
+      {
+        "inicio": 23.0,
+        "fin": 26.0,
+        "valor": 0
+      },
+      {
+        "inicio": 26.0,
+        "fin": 27.0,
+        "valor": -1
+      },
+      {
+        "inicio": 27.0,
+        "fin": 30.0,
+        "valor": 1
+      },
+      {
+        "inicio": 30.0,
+        "fin": 31.0,
+        "valor": -1
+      },
+      {
+        "inicio": 31.0,
+        "fin": 33.0,
+        "valor": 0
+      },
+      {
+        "inicio": 33.0,
+        "fin": 34.0,
+        "valor": -1
+      },
+      {
+        "inicio": 34.0,
+        "fin": 36.0,
+        "valor": 1
+      },
+      {
+        "inicio": 36.0,
+        "fin": 37.0,
+        "valor": -1
+      },
+      {
+        "inicio": 37.0,
+        "fin": 39.0,
+        "valor": 0
+      },
+      {
+        "inicio": 39.0,
+        "fin": 40.0,
+        "valor": 1
+      },
+      {
+        "inicio": 40.0,
+        "fin": 41.04,
+        "valor": -1
+      }
+    ],
+    "sistema": [
+      {
+        "inicio": 0.0,
+        "fin": 0.25,
+        "valor": -1
+      },
+      {
+        "inicio": 0.25,
+        "fin": 1.75,
+        "valor": 0
+      },
+      {
+        "inicio": 1.75,
+        "fin": 2.25,
+        "valor": -1
+      },
+      {
+        "inicio": 2.25,
+        "fin": 5.0,
+        "valor": 0
+      },
+      {
+        "inicio": 5.0,
+        "fin": 5.25,
+        "valor": -1
+      },
+      {
+        "inicio": 5.25,
+        "fin": 11.25,
+        "valor": 0
+      },
+      {
+        "inicio": 11.25,
+        "fin": 11.5,
+        "valor": -1
+      },
+      {
+        "inicio": 11.5,
+        "fin": 18.75,
+        "valor": 0
+      },
+      {
+        "inicio": 18.75,
+        "fin": 19.25,
+        "valor": -1
+      },
+      {
+        "inicio": 19.25,
+        "fin": 24.75,
+        "valor": 0
+      },
+      {
+        "inicio": 24.75,
+        "fin": 25.0,
+        "valor": -1
+      },
+      {
+        "inicio": 25.0,
+        "fin": 26.0,
+        "valor": 0
+      },
+      {
+        "inicio": 26.0,
+        "fin": 26.25,
+        "valor": -1
+      },
+      {
+        "inicio": 26.25,
+        "fin": 26.75,
+        "valor": 0
+      },
+      {
+        "inicio": 26.75,
+        "fin": 27.5,
+        "valor": -1
+      },
+      {
+        "inicio": 27.5,
+        "fin": 28.0,
+        "valor": 0
+      },
+      {
+        "inicio": 28.0,
+        "fin": 28.25,
+        "valor": -1
+      },
+      {
+        "inicio": 28.25,
+        "fin": 30.5,
+        "valor": 0
+      },
+      {
+        "inicio": 30.5,
+        "fin": 30.75,
+        "valor": -1
+      },
+      {
+        "inicio": 30.75,
+        "fin": 33.5,
+        "valor": 0
+      },
+      {
+        "inicio": 33.5,
+        "fin": 34.25,
+        "valor": -1
+      },
+      {
+        "inicio": 34.25,
+        "fin": 36.75,
+        "valor": 0
+      },
+      {
+        "inicio": 36.75,
+        "fin": 37.0,
+        "valor": -1
+      },
+      {
+        "inicio": 37.0,
+        "fin": 39.0,
+        "valor": 0
+      },
+      {
+        "inicio": 39.0,
+        "fin": 39.25,
+        "valor": -1
+      },
+      {
+        "inicio": 39.25,
+        "fin": 41.0,
+        "valor": 0
+      },
+      {
+        "inicio": 41.0,
+        "fin": 41.04,
+        "valor": -1
+      }
+    ],
+    "evaluacion": [
+      {
+        "inicio": 0.0,
+        "fin": 0.25,
+        "valor": 2
+      },
+      {
+        "inicio": 0.25,
+        "fin": 1.75,
+        "valor": 1
+      },
+      {
+        "inicio": 1.75,
+        "fin": 2.0,
+        "valor": 2
+      },
+      {
+        "inicio": 2.0,
+        "fin": 2.25,
+        "valor": 0
+      },
+      {
+        "inicio": 2.25,
+        "fin": 3.0,
+        "valor": 3
+      },
+      {
+        "inicio": 3.0,
+        "fin": 4.0,
+        "valor": 4
+      },
+      {
+        "inicio": 4.0,
+        "fin": 5.0,
+        "valor": 3
+      },
+      {
+        "inicio": 5.0,
+        "fin": 5.25,
+        "valor": 2
+      },
+      {
+        "inicio": 5.25,
+        "fin": 9.0,
+        "valor": 1
+      },
+      {
+        "inicio": 9.0,
+        "fin": 10.0,
+        "valor": 3
+      },
+      {
+        "inicio": 10.0,
+        "fin": 11.0,
+        "valor": 4
+      },
+      {
+        "inicio": 11.0,
+        "fin": 11.25,
+        "valor": 3
+      },
+      {
+        "inicio": 11.25,
+        "fin": 11.5,
+        "valor": 0
+      },
+      {
+        "inicio": 11.5,
+        "fin": 12.0,
+        "valor": 3
+      },
+      {
+        "inicio": 12.0,
+        "fin": 18.0,
+        "valor": 1
+      },
+      {
+        "inicio": 18.0,
+        "fin": 18.75,
+        "valor": 3
+      },
+      {
+        "inicio": 18.75,
+        "fin": 19.0,
+        "valor": 0
+      },
+      {
+        "inicio": 19.0,
+        "fin": 19.25,
+        "valor": 2
+      },
+      {
+        "inicio": 19.25,
+        "fin": 22.0,
+        "valor": 4
+      },
+      {
+        "inicio": 22.0,
+        "fin": 23.0,
+        "valor": 3
+      },
+      {
+        "inicio": 23.0,
+        "fin": 24.75,
+        "valor": 1
+      },
+      {
+        "inicio": 24.75,
+        "fin": 25.0,
+        "valor": 2
+      },
+      {
+        "inicio": 25.0,
+        "fin": 26.0,
+        "valor": 1
+      },
+      {
+        "inicio": 26.0,
+        "fin": 26.25,
+        "valor": 0
+      },
+      {
+        "inicio": 26.25,
+        "fin": 26.75,
+        "valor": 3
+      },
+      {
+        "inicio": 26.75,
+        "fin": 27.0,
+        "valor": 0
+      },
+      {
+        "inicio": 27.0,
+        "fin": 27.5,
+        "valor": 2
+      },
+      {
+        "inicio": 27.5,
+        "fin": 28.0,
+        "valor": 4
+      },
+      {
+        "inicio": 28.0,
+        "fin": 28.25,
+        "valor": 2
+      },
+      {
+        "inicio": 28.25,
+        "fin": 30.0,
+        "valor": 4
+      },
+      {
+        "inicio": 30.0,
+        "fin": 30.5,
+        "valor": 3
+      },
+      {
+        "inicio": 30.5,
+        "fin": 30.75,
+        "valor": 0
+      },
+      {
+        "inicio": 30.75,
+        "fin": 31.0,
+        "valor": 3
+      },
+      {
+        "inicio": 31.0,
+        "fin": 33.0,
+        "valor": 1
+      },
+      {
+        "inicio": 33.0,
+        "fin": 33.5,
+        "valor": 3
+      },
+      {
+        "inicio": 33.5,
+        "fin": 34.0,
+        "valor": 0
+      },
+      {
+        "inicio": 34.0,
+        "fin": 34.25,
+        "valor": 2
+      },
+      {
+        "inicio": 34.25,
+        "fin": 36.0,
+        "valor": 4
+      },
+      {
+        "inicio": 36.0,
+        "fin": 36.75,
+        "valor": 3
+      },
+      {
+        "inicio": 36.75,
+        "fin": 37.0,
+        "valor": 0
+      },
+      {
+        "inicio": 37.0,
+        "fin": 39.0,
+        "valor": 1
+      },
+      {
+        "inicio": 39.0,
+        "fin": 39.25,
+        "valor": 2
+      },
+      {
+        "inicio": 39.25,
+        "fin": 40.0,
+        "valor": 4
+      },
+      {
+        "inicio": 40.0,
+        "fin": 41.0,
+        "valor": 3
+      },
+      {
+        "inicio": 41.0,
+        "fin": 41.04,
+        "valor": 0
+      }
+    ]
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "nombre_archivo": "40_años_de_FJR_Entrevista_a_Francisco_López_Barrera.ogg",
+  "duracion_total_archivo_seg": 61.58,
+  "tiempo_total_voz_seg": 60.36,
+  "tiempo_silencio_seg": 1.22,
+  "hablantes_detectados": 2,
+  "hablantes": {
+    "Hablante 1": {
+      "segundos": 36.09,
+      "porcentaje": 59.8
+    },
+    "Hablante 2": {
+      "segundos": 24.27,
+      "porcentaje": 40.2
+    }
+  },
+  "segmentos": [
+    {
+      "inicio": 0.03,
+      "fin": 5.61,
+      "hablante": "Hablante 1"
+    },
+    {
+      "inicio": 5.91,
+      "fin": 12.33,
+      "hablante": "Hablante 1"
+    },
+    {
+      "inicio": 12.39,
+      "fin": 16.38,
+      "hablante": "Hablante 1"
+    },
+    {
+      "inicio": 16.65,
+      "fin": 23.85,
+      "hablante": "Hablante 1"
+    },
+    {
+      "inicio": 23.94,
+      "fin": 25.08,
+      "hablante": "Hablante 1"
+    },
+    {
+      "inicio": 25.32,
+      "fin": 26.83,
+      "hablante": "Hablante 1"
+    },
+    {
+      "inicio": 26.83,
+      "fin": 46.03,
+      "hablante": "Hablante 2"
+    },
+    {
+      "inicio": 46.03,
+      "fin": 50.76,
+      "hablante": "Hablante 1"
+    },
+    {
+      "inicio": 50.82,
+      "fin": 53.52,
+      "hablante": "Hablante 1"
+    },
+    {
+      "inicio": 53.55,
+      "fin": 55.77,
+      "hablante": "Hablante 1"
+    },
+    {
+      "inicio": 55.83,
+      "fin": 56.43,
+      "hablante": "Hablante 1"
+    },
+    {
+      "inicio": 56.43,
+      "fin": 61.5,
+      "hablante": "Hablante 2"
+    }
+  ],
+  "metodo": "ERes2Net + WebRTC VAD + agrupamiento jerárquico",
+  "advertencias": [
+    "Estimación acústica: puede confundir voces parecidas o dividir una misma voz.",
+    "Las voces simultáneas no se identifican por separado."
+  ],
+  "diagnostico_conteo": {
+    "referencias_totales": 74,
+    "referencias_utilizadas": 74,
+    "candidatos": [],
+    "salto_fusion": 0.2081,
+    "corte_adaptado": 0.6887,
+    "estrategia": "jerarquico_promedio_coseno",
+    "umbral_distancia": 0.6,
+    "silueta_elegida": 0.5481
+  }
+}

@@ -1,0 +1,118 @@
+{
+  "nombre_archivo": "request-costarica-luis-javier.mp3",
+  "duracion_total_archivo_seg": 41.04,
+  "tiempo_total_voz_seg": 36.03,
+  "tiempo_silencio_seg": 5.01,
+  "hablantes_detectados": 1,
+  "hablantes": {
+    "Hablante 1": {
+      "segundos": 36.03,
+      "porcentaje": 100.0
+    }
+  },
+  "segmentos": [
+    {
+      "inicio": 0.33,
+      "fin": 1.77,
+      "hablante": "Hablante 1"
+    },
+    {
+      "inicio": 2.13,
+      "fin": 4.98,
+      "hablante": "Hablante 1"
+    },
+    {
+      "inicio": 5.04,
+      "fin": 5.16,
+      "hablante": "Hablante 1"
+    },
+    {
+      "inicio": 5.37,
+      "fin": 6.48,
+      "hablante": "Hablante 1"
+    },
+    {
+      "inicio": 6.54,
+      "fin": 9.63,
+      "hablante": "Hablante 1"
+    },
+    {
+      "inicio": 9.78,
+      "fin": 11.13,
+      "hablante": "Hablante 1"
+    },
+    {
+      "inicio": 11.4,
+      "fin": 14.97,
+      "hablante": "Hablante 1"
+    },
+    {
+      "inicio": 15.09,
+      "fin": 18.69,
+      "hablante": "Hablante 1"
+    },
+    {
+      "inicio": 19.23,
+      "fin": 23.13,
+      "hablante": "Hablante 1"
+    },
+    {
+      "inicio": 23.19,
+      "fin": 24.69,
+      "hablante": "Hablante 1"
+    },
+    {
+      "inicio": 24.96,
+      "fin": 26.07,
+      "hablante": "Hablante 1"
+    },
+    {
+      "inicio": 26.25,
+      "fin": 26.67,
+      "hablante": "Hablante 1"
+    },
+    {
+      "inicio": 27.42,
+      "fin": 27.99,
+      "hablante": "Hablante 1"
+    },
+    {
+      "inicio": 28.29,
+      "fin": 30.57,
+      "hablante": "Hablante 1"
+    },
+    {
+      "inicio": 30.87,
+      "fin": 33.57,
+      "hablante": "Hablante 1"
+    },
+    {
+      "inicio": 34.17,
+      "fin": 36.75,
+      "hablante": "Hablante 1"
+    },
+    {
+      "inicio": 36.9,
+      "fin": 39.0,
+      "hablante": "Hablante 1"
+    },
+    {
+      "inicio": 39.27,
+      "fin": 41.01,
+      "hablante": "Hablante 1"
+    }
+  ],
+  "metodo": "ERes2Net + WebRTC VAD + agrupamiento jerárquico",
+  "advertencias": [
+    "Estimación acústica: puede confundir voces parecidas o dividir una misma voz.",
+    "Las voces simultáneas no se identifican por separado.",
+    "Solo se distinguió un grupo de voz; esto no confirma que haya una sola persona."
+  ],
+  "diagnostico_conteo": {
+    "referencias_totales": 37,
+    "referencias_utilizadas": 37,
+    "candidatos": [],
+    "estrategia": "jerarquico_promedio_coseno",
+    "umbral_distancia": 0.6
+  }
+}

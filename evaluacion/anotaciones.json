@@ -1,0 +1,540 @@
+{
+  "origen": "Turnos anotados manualmente en Tiempo_audios.xlsx; transcritos sin reescuchar los audios.",
+  "precision_anotacion": "Los límites manuales se redondearon a segundos enteros en la planilla.",
+  "audios": [
+    {
+      "id": "Audio 1",
+      "categoria": "turnos",
+      "archivo": "Hablantes por turnos/Diálogo1_Lengua_Taxi.ogg",
+      "duracion_referencia_seg": 63,
+      "turnos": [
+        {
+          "inicio": 2.0,
+          "fin": 6.0,
+          "hablante": "Hablante 1"
+        },
+        {
+          "inicio": 8.0,
+          "fin": 9.0,
+          "hablante": "Hablante 2"
+        },
+        {
+          "inicio": 17.0,
+          "fin": 22.0,
+          "hablante": "Hablante 3"
+        },
+        {
+          "inicio": 25.0,
+          "fin": 28.0,
+          "hablante": "Hablante 3"
+        },
+        {
+          "inicio": 30.0,
+          "fin": 39.0,
+          "hablante": "Hablante 3"
+        },
+        {
+          "inicio": 40.0,
+          "fin": 43.0,
+          "hablante": "Hablante 4"
+        },
+        {
+          "inicio": 44.0,
+          "fin": 46.0,
+          "hablante": "Hablante 3"
+        },
+        {
+          "inicio": 47.0,
+          "fin": 48.0,
+          "hablante": "Hablante 4"
+        },
+        {
+          "inicio": 51.0,
+          "fin": 52.0,
+          "hablante": "Hablante 3"
+        },
+        {
+          "inicio": 52.0,
+          "fin": 61.0,
+          "hablante": "Hablante 4"
+        }
+      ]
+    },
+    {
+      "id": "Audio 2",
+      "categoria": "turnos",
+      "archivo": "Hablantes por turnos/Diálogo2_Lengua_Taxi.ogg",
+      "duracion_referencia_seg": 39,
+      "turnos": [
+        {
+          "inicio": 0.0,
+          "fin": 4.0,
+          "hablante": "Hablante 1"
+        },
+        {
+          "inicio": 5.0,
+          "fin": 6.0,
+          "hablante": "Hablante 2"
+        },
+        {
+          "inicio": 9.0,
+          "fin": 10.0,
+          "hablante": "Hablante 3"
+        },
+        {
+          "inicio": 11.0,
+          "fin": 12.0,
+          "hablante": "Hablante 4"
+        },
+        {
+          "inicio": 13.0,
+          "fin": 14.0,
+          "hablante": "Hablante 3"
+        },
+        {
+          "inicio": 14.0,
+          "fin": 16.0,
+          "hablante": "Hablante 4"
+        },
+        {
+          "inicio": 17.0,
+          "fin": 18.0,
+          "hablante": "Hablante 3"
+        },
+        {
+          "inicio": 18.0,
+          "fin": 21.0,
+          "hablante": "Hablante 4"
+        },
+        {
+          "inicio": 22.0,
+          "fin": 24.0,
+          "hablante": "Hablante 3"
+        },
+        {
+          "inicio": 25.0,
+          "fin": 33.0,
+          "hablante": "Hablante 4"
+        },
+        {
+          "inicio": 34.0,
+          "fin": 36.0,
+          "hablante": "Hablante 3"
+        }
+      ]
+    },
+    {
+      "id": "Audio 3",
+      "categoria": "turnos",
+      "archivo": "Hablantes por turnos/Diálogo3_Lengua_Taxi.ogg",
+      "duracion_referencia_seg": 66,
+      "turnos": [
+        {
+          "inicio": 2.0,
+          "fin": 5.0,
+          "hablante": "Hablante 1"
+        },
+        {
+          "inicio": 7.0,
+          "fin": 8.0,
+          "hablante": "Hablante 1"
+        },
+        {
+          "inicio": 11.0,
+          "fin": 20.0,
+          "hablante": "Hablante 2"
+        },
+        {
+          "inicio": 22.0,
+          "fin": 27.0,
+          "hablante": "Hablante 2"
+        },
+        {
+          "inicio": 29.0,
+          "fin": 30.0,
+          "hablante": "Hablante 3"
+        },
+        {
+          "inicio": 30.0,
+          "fin": 31.0,
+          "hablante": "Hablante 2"
+        },
+        {
+          "inicio": 32.0,
+          "fin": 33.0,
+          "hablante": "Hablante 3"
+        },
+        {
+          "inicio": 35.0,
+          "fin": 39.0,
+          "hablante": "Hablante 2"
+        },
+        {
+          "inicio": 40.0,
+          "fin": 42.0,
+          "hablante": "Hablante 3"
+        },
+        {
+          "inicio": 43.0,
+          "fin": 47.0,
+          "hablante": "Hablante 2"
+        },
+        {
+          "inicio": 48.0,
+          "fin": 52.0,
+          "hablante": "Hablante 3"
+        },
+        {
+          "inicio": 53.0,
+          "fin": 59.0,
+          "hablante": "Hablante 2"
+        },
+        {
+          "inicio": 61.0,
+          "fin": 62.0,
+          "hablante": "Hablante 2"
+        },
+        {
+          "inicio": 63.0,
+          "fin": 64.0,
+          "hablante": "Hablante 3"
+        }
+      ]
+    },
+    {
+      "id": "Audio 4",
+      "categoria": "turnos",
+      "archivo": "Hablantes por turnos/Diálogo4_Lengua_Taxi.ogg",
+      "duracion_referencia_seg": 67,
+      "turnos": [
+        {
+          "inicio": 4.0,
+          "fin": 8.0,
+          "hablante": "Hablante 1"
+        },
+        {
+          "inicio": 12.0,
+          "fin": 14.0,
+          "hablante": "Hablante 2"
+        },
+        {
+          "inicio": 15.0,
+          "fin": 16.0,
+          "hablante": "Hablante 3"
+        },
+        {
+          "inicio": 17.0,
+          "fin": 18.0,
+          "hablante": "Hablante 2"
+        },
+        {
+          "inicio": 18.0,
+          "fin": 20.0,
+          "hablante": "Hablante 3"
+        },
+        {
+          "inicio": 21.0,
+          "fin": 25.0,
+          "hablante": "Hablante 2"
+        },
+        {
+          "inicio": 25.0,
+          "fin": 27.0,
+          "hablante": "Hablante 3"
+        },
+        {
+          "inicio": 28.0,
+          "fin": 31.0,
+          "hablante": "Hablante 2"
+        },
+        {
+          "inicio": 31.0,
+          "fin": 34.0,
+          "hablante": "Hablante 3"
+        },
+        {
+          "inicio": 34.0,
+          "fin": 36.0,
+          "hablante": "Hablante 2"
+        },
+        {
+          "inicio": 37.0,
+          "fin": 40.0,
+          "hablante": "Hablante 3"
+        },
+        {
+          "inicio": 40.0,
+          "fin": 43.0,
+          "hablante": "Hablante 2"
+        },
+        {
+          "inicio": 44.0,
+          "fin": 45.0,
+          "hablante": "Hablante 3"
+        },
+        {
+          "inicio": 45.0,
+          "fin": 48.0,
+          "hablante": "Hablante 2"
+        },
+        {
+          "inicio": 48.0,
+          "fin": 49.0,
+          "hablante": "Hablante 4"
+        },
+        {
+          "inicio": 50.0,
+          "fin": 52.0,
+          "hablante": "Hablante 2"
+        },
+        {
+          "inicio": 52.0,
+          "fin": 53.0,
+          "hablante": "Hablante 4"
+        },
+        {
+          "inicio": 53.0,
+          "fin": 56.0,
+          "hablante": "Hablante 2"
+        },
+        {
+          "inicio": 57.0,
+          "fin": 62.0,
+          "hablante": "Hablante 3"
+        },
+        {
+          "inicio": 62.0,
+          "fin": 64.0,
+          "hablante": "Hablante 2"
+        }
+      ]
+    },
+    {
+      "id": "Audio 5",
+      "categoria": "voces parecidas",
+      "archivo": "voces parecidas/40_años_de_FJR_Entrevista_a_Francisco_López_Barrera.ogg",
+      "duracion_referencia_seg": 62,
+      "turnos": [
+        {
+          "inicio": 0.0,
+          "fin": 12.0,
+          "hablante": "Hablante 1"
+        },
+        {
+          "inicio": 13.0,
+          "fin": 26.0,
+          "hablante": "Hablante 2"
+        },
+        {
+          "inicio": 28.0,
+          "fin": 45.0,
+          "hablante": "Hablante 3"
+        },
+        {
+          "inicio": 47.0,
+          "fin": 56.0,
+          "hablante": "Hablante 1"
+        },
+        {
+          "inicio": 58.0,
+          "fin": 62.0,
+          "hablante": "Hablante 3"
+        }
+      ]
+    },
+    {
+      "id": "Audio 6",
+      "categoria": "voces parecidas",
+      "archivo": "voces parecidas/Audio_entrevista_Nadia_Heck.wav",
+      "duracion_referencia_seg": 88,
+      "turnos": [
+        {
+          "inicio": 0.0,
+          "fin": 12.0,
+          "hablante": "Hablante 1"
+        },
+        {
+          "inicio": 13.0,
+          "fin": 30.0,
+          "hablante": "Hablante 2"
+        },
+        {
+          "inicio": 30.0,
+          "fin": 32.0,
+          "hablante": "Hablante 1"
+        },
+        {
+          "inicio": 33.0,
+          "fin": 41.0,
+          "hablante": "Hablante 2"
+        },
+        {
+          "inicio": 43.0,
+          "fin": 47.0,
+          "hablante": "Hablante 1"
+        },
+        {
+          "inicio": 48.0,
+          "fin": 56.0,
+          "hablante": "Hablante 2"
+        },
+        {
+          "inicio": 58.0,
+          "fin": 67.0,
+          "hablante": "Hablante 1"
+        },
+        {
+          "inicio": 68.0,
+          "fin": 85.0,
+          "hablante": "Hablante 2"
+        },
+        {
+          "inicio": 86.0,
+          "fin": 88.0,
+          "hablante": "Hablante 1"
+        }
+      ]
+    },
+    {
+      "id": "Audio 7",
+      "categoria": "voces parecidas",
+      "archivo": "voces parecidas/Entrevista_a_Santiago_Urrutia_del_4_de_noviembre_de_2017.ogg",
+      "duracion_referencia_seg": 79,
+      "turnos": [
+        {
+          "inicio": 0.0,
+          "fin": 5.0,
+          "hablante": "Hablante 1"
+        },
+        {
+          "inicio": 6.0,
+          "fin": 11.0,
+          "hablante": "Hablante 2"
+        },
+        {
+          "inicio": 11.0,
+          "fin": 13.0,
+          "hablante": "Hablante 1"
+        },
+        {
+          "inicio": 13.0,
+          "fin": 27.0,
+          "hablante": "Hablante 2"
+        },
+        {
+          "inicio": 28.0,
+          "fin": 35.0,
+          "hablante": "Hablante 1"
+        },
+        {
+          "inicio": 35.0,
+          "fin": 44.0,
+          "hablante": "Hablante 2"
+        },
+        {
+          "inicio": 45.0,
+          "fin": 50.0,
+          "hablante": "Hablante 1"
+        },
+        {
+          "inicio": 50.0,
+          "fin": 60.0,
+          "hablante": "Hablante 2"
+        },
+        {
+          "inicio": 61.0,
+          "fin": 65.0,
+          "hablante": "Hablante 1"
+        },
+        {
+          "inicio": 66.0,
+          "fin": 72.0,
+          "hablante": "Hablante 2"
+        },
+        {
+          "inicio": 73.0,
+          "fin": 74.0,
+          "hablante": "Hablante 1"
+        },
+        {
+          "inicio": 75.0,
+          "fin": 76.0,
+          "hablante": "Hablante 2"
+        },
+        {
+          "inicio": 78.0,
+          "fin": 79.0,
+          "hablante": "Hablante 1"
+        }
+      ]
+    },
+    {
+      "id": "Audio 8",
+      "categoria": "voces parecidas",
+      "archivo": "voces parecidas/request-costarica-luis-javier.mp3",
+      "duracion_referencia_seg": 41,
+      "turnos": [
+        {
+          "inicio": 0.0,
+          "fin": 2.0,
+          "hablante": "Hablante 1"
+        },
+        {
+          "inicio": 3.0,
+          "fin": 4.0,
+          "hablante": "Hablante 2"
+        },
+        {
+          "inicio": 5.0,
+          "fin": 9.0,
+          "hablante": "Hablante 1"
+        },
+        {
+          "inicio": 10.0,
+          "fin": 11.0,
+          "hablante": "Hablante 2"
+        },
+        {
+          "inicio": 12.0,
+          "fin": 18.0,
+          "hablante": "Hablante 1"
+        },
+        {
+          "inicio": 19.0,
+          "fin": 22.0,
+          "hablante": "Hablante 2"
+        },
+        {
+          "inicio": 23.0,
+          "fin": 26.0,
+          "hablante": "Hablante 1"
+        },
+        {
+          "inicio": 27.0,
+          "fin": 30.0,
+          "hablante": "Hablante 2"
+        },
+        {
+          "inicio": 31.0,
+          "fin": 33.0,
+          "hablante": "Hablante 1"
+        },
+        {
+          "inicio": 34.0,
+          "fin": 36.0,
+          "hablante": "Hablante 2"
+        },
+        {
+          "inicio": 37.0,
+          "fin": 39.0,
+          "hablante": "Hablante 1"
+        },
+        {
+          "inicio": 39.0,
+          "fin": 40.0,
+          "hablante": "Hablante 2"
+        }
+      ]
+    }
+  ]
+}

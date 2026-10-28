@@ -1,0 +1,194 @@
+{
+  "nombre_archivo": "Diálogo3_Lengua_Taxi.ogg",
+  "duracion_total_archivo_seg": 66.32,
+  "tiempo_total_voz_seg": 51.96,
+  "tiempo_silencio_seg": 14.36,
+  "hablantes_detectados": 3,
+  "hablantes": {
+    "Hablante 1": {
+      "segundos": 6.69,
+      "porcentaje": 12.9
+    },
+    "Hablante 2": {
+      "segundos": 30.35,
+      "porcentaje": 58.4
+    },
+    "Hablante 3": {
+      "segundos": 14.92,
+      "porcentaje": 28.7
+    }
+  },
+  "segmentos": [
+    {
+      "inicio": 0.63,
+      "fin": 6.03,
+      "hablante": "Hablante 1"
+    },
+    {
+      "inicio": 6.96,
+      "fin": 8.25,
+      "hablante": "Hablante 1"
+    },
+    {
+      "inicio": 8.97,
+      "fin": 19.8,
+      "hablante": "Hablante 2"
+    },
+    {
+      "inicio": 21.27,
+      "fin": 21.9,
+      "hablante": "Hablante 2"
+    },
+    {
+      "inicio": 21.99,
+      "fin": 23.43,
+      "hablante": "Hablante 2"
+    },
+    {
+      "inicio": 24.6,
+      "fin": 25.74,
+      "hablante": "Hablante 2"
+    },
+    {
+      "inicio": 26.1,
+      "fin": 27.69,
+      "hablante": "Hablante 2"
+    },
+    {
+      "inicio": 28.32,
+      "fin": 28.74,
+      "hablante": "Hablante 3"
+    },
+    {
+      "inicio": 28.92,
+      "fin": 30.48,
+      "hablante": "Hablante 3"
+    },
+    {
+      "inicio": 30.81,
+      "fin": 33.61,
+      "hablante": "Hablante 3"
+    },
+    {
+      "inicio": 33.61,
+      "fin": 34.53,
+      "hablante": "Hablante 2"
+    },
+    {
+      "inicio": 34.74,
+      "fin": 34.92,
+      "hablante": "Hablante 2"
+    },
+    {
+      "inicio": 35.01,
+      "fin": 35.25,
+      "hablante": "Hablante 2"
+    },
+    {
+      "inicio": 35.43,
+      "fin": 35.91,
+      "hablante": "Hablante 2"
+    },
+    {
+      "inicio": 36.69,
+      "fin": 38.28,
+      "hablante": "Hablante 2"
+    },
+    {
+      "inicio": 38.55,
+      "fin": 39.49,
+      "hablante": "Hablante 2"
+    },
+    {
+      "inicio": 39.49,
+      "fin": 39.81,
+      "hablante": "Hablante 3"
+    },
+    {
+      "inicio": 39.93,
+      "fin": 41.7,
+      "hablante": "Hablante 3"
+    },
+    {
+      "inicio": 41.91,
+      "fin": 42.3,
+      "hablante": "Hablante 3"
+    },
+    {
+      "inicio": 42.66,
+      "fin": 44.28,
+      "hablante": "Hablante 2"
+    },
+    {
+      "inicio": 44.31,
+      "fin": 46.89,
+      "hablante": "Hablante 2"
+    },
+    {
+      "inicio": 46.95,
+      "fin": 47.06,
+      "hablante": "Hablante 2"
+    },
+    {
+      "inicio": 47.06,
+      "fin": 50.91,
+      "hablante": "Hablante 3"
+    },
+    {
+      "inicio": 51.06,
+      "fin": 52.95,
+      "hablante": "Hablante 3"
+    },
+    {
+      "inicio": 53.01,
+      "fin": 53.94,
+      "hablante": "Hablante 3"
+    },
+    {
+      "inicio": 54.48,
+      "fin": 56.7,
+      "hablante": "Hablante 2"
+    },
+    {
+      "inicio": 56.97,
+      "fin": 58.17,
+      "hablante": "Hablante 2"
+    },
+    {
+      "inicio": 58.38,
+      "fin": 59.43,
+      "hablante": "Hablante 2"
+    },
+    {
+      "inicio": 60.54,
+      "fin": 61.11,
+      "hablante": "Hablante 2"
+    },
+    {
+      "inicio": 61.44,
+      "fin": 62.46,
+      "hablante": "Hablante 2"
+    },
+    {
+      "inicio": 62.79,
+      "fin": 63.78,
+      "hablante": "Hablante 3"
+    }
+  ],
+  "metodo": "ERes2Net + WebRTC VAD + agrupamiento jerárquico",
+  "advertencias": [
+    "Estimación acústica: puede confundir voces parecidas o dividir una misma voz.",
+    "Las voces simultáneas no se identifican por separado.",
+    "Las intervenciones breves se asignan a las voces de referencia; una persona que solo habla brevemente puede no distinguirse."
+  ],
+  "diagnostico_conteo": {
+    "referencias_totales": 44,
+    "referencias_utilizadas": 44,
+    "candidatos": [],
+    "salto_fusion": 0.1453,
+    "corte_adaptado": 0.7295,
+    "estrategia": "jerarquico_promedio_coseno",
+    "umbral_distancia": 0.6,
+    "silueta_elegida": 0.4941
+  }
+}

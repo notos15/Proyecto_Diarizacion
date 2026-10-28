@@ -5,3 +5,4 @@ modelos/*.part
 .env
 .venv/
 .DS_Store
+~$*.xlsx

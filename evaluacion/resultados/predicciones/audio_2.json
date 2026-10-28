@@ -1,0 +1,105 @@
+{
+  "nombre_archivo": "Diálogo2_Lengua_Taxi.ogg",
+  "duracion_total_archivo_seg": 38.88,
+  "tiempo_total_voz_seg": 32.52,
+  "tiempo_silencio_seg": 6.36,
+  "hablantes_detectados": 2,
+  "hablantes": {
+    "Hablante 1": {
+      "segundos": 4.26,
+      "porcentaje": 13.1
+    },
+    "Hablante 2": {
+      "segundos": 28.26,
+      "porcentaje": 86.9
+    }
+  },
+  "segmentos": [
+    {
+      "inicio": 0.21,
+      "fin": 1.89,
+      "hablante": "Hablante 1"
+    },
+    {
+      "inicio": 2.1,
+      "fin": 3.69,
+      "hablante": "Hablante 1"
+    },
+    {
+      "inicio": 4.92,
+      "fin": 5.91,
+      "hablante": "Hablante 1"
+    },
+    {
+      "inicio": 6.51,
+      "fin": 15.18,
+      "hablante": "Hablante 2"
+    },
+    {
+      "inicio": 15.24,
+      "fin": 17.82,
+      "hablante": "Hablante 2"
+    },
+    {
+      "inicio": 17.91,
+      "fin": 21.12,
+      "hablante": "Hablante 2"
+    },
+    {
+      "inicio": 21.21,
+      "fin": 24.03,
+      "hablante": "Hablante 2"
+    },
+    {
+      "inicio": 24.12,
+      "fin": 26.25,
+      "hablante": "Hablante 2"
+    },
+    {
+      "inicio": 26.46,
+      "fin": 28.2,
+      "hablante": "Hablante 2"
+    },
+    {
+      "inicio": 28.44,
+      "fin": 30.57,
+      "hablante": "Hablante 2"
+    },
+    {
+      "inicio": 31.05,
+      "fin": 33.06,
+      "hablante": "Hablante 2"
+    },
+    {
+      "inicio": 33.27,
+      "fin": 34.62,
+      "hablante": "Hablante 2"
+    },
+    {
+      "inicio": 34.92,
+      "fin": 35.64,
+      "hablante": "Hablante 2"
+    },
+    {
+      "inicio": 35.91,
+      "fin": 36.81,
+      "hablante": "Hablante 2"
+    }
+  ],
+  "metodo": "ERes2Net + WebRTC VAD + agrupamiento jerárquico",
+  "advertencias": [
+    "Estimación acústica: puede confundir voces parecidas o dividir una misma voz.",
+    "Las voces simultáneas no se identifican por separado.",
+    "Las intervenciones breves se asignan a las voces de referencia; una persona que solo habla brevemente puede no distinguirse."
+  ],
+  "diagnostico_conteo": {
+    "referencias_totales": 35,
+    "referencias_utilizadas": 35,
+    "candidatos": [],
+    "salto_fusion": 0.1637,
+    "corte_adaptado": 0.7335,
+    "estrategia": "jerarquico_promedio_coseno",
+    "umbral_distancia": 0.6,
+    "silueta_elegida": 0.4164
+  }
+}

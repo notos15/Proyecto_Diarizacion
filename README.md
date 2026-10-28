@@ -77,13 +77,16 @@ Para detener el servidor, presiona **Ctrl+C** en la terminal.
 
 ## Usar el menú de consola
 
-Guarda tus audios en la carpeta `data` y ejecuta:
+Guarda tus audios directamente en la carpeta `data` y ejecuta:
 
 ```bash
 python src/menu.py
 ```
 
 El menú permite elegir un archivo y consultar el conteo estimado y los tiempos de participación.
+Los archivos de `data/Audios de prueba/` están en subcarpetas y se pueden cargar
+desde la página web; el menú de consola solo lista los audios ubicados
+directamente en `data/`.
 
 ## Configuración
 
@@ -120,6 +123,7 @@ El modelo está preentrenado: **el proyecto no lo entrena con los archivos carga
 ```text
 Proyecto_Diarizacion/
 ├── README.md
+├── Tiempo_audios.xlsx   # Anotaciones y comparación manual/sistema
 ├── requerimientos.txt
 ├── .env.example
 ├── src/
@@ -133,9 +137,14 @@ Proyecto_Diarizacion/
 │   └── static/
 │       ├── styles.css
 │       └── app.js
-├── data/                  # Audios para el menú de consola
+├── data/                  # Audios del menú y corpus de prueba documentado
+│   ├── README.md
+│   └── Audios de prueba/
+│       ├── Hablantes por turnos/
+│       └── voces parecidas/
 ├── modelos/               # Modelo descargado
-└── tests/                 # Pruebas del proyecto
+├── tests/                 # Pruebas automatizadas
+└── evaluacion/            # Anotaciones, métricas y resultados
 ```
 
 Las cargas de la página se procesan en carpetas temporales y se eliminan al finalizar. No se añaden a `data`.
@@ -150,7 +159,31 @@ python -B -m unittest discover -s tests -v
 
 Incluyen comprobaciones de lectura de formatos, agrupamiento, cálculo de tiempos, manejo del modelo y servidor web.
 
-La evaluación de precisión con anotaciones temporales y métricas como DER/JER sigue pendiente.
+La evaluación por turnos y DER de esta entrega se describe abajo. Una
+validación con anotaciones de mayor precisión y JER sigue pendiente.
+
+## Evaluación de esta entrega
+
+Los audios de `data/Audios de prueba/` cubren dos situaciones: diálogos y
+entrevistas con hablantes por turnos, y entrevistas con voces parecidas.
+Hay 13 archivos en la primera categoría y 4 en la segunda. La carpeta
+`data/README.md` identifica los casos y su uso.
+
+`Tiempo_audios.xlsx` es la planilla de referencia. La hoja **Contar tiempos**
+compara el número de hablantes y los segundos de voz anotados manualmente con
+la salida del sistema. **Por turnos** y **Voces parecidad** registran los
+intervalos de intervención, su inicio y fin, y el hablante asignado; **Varias
+voces** contiene otro caso de anotación. Se conserva el nombre original de
+cada hoja. La planilla incluye observaciones y sus marcas manuales están
+redondeadas a segundos enteros.
+
+La evaluación reproducible en `evaluacion/` usa **ocho** de esos audios: cuatro
+de cada categoría, con **94 turnos** transcritos de la planilla a
+`evaluacion/anotaciones.json`. Compara el número de hablantes, los segundos de
+voz y el error de diarización (DER), y genera líneas de tiempo de los aciertos
+y errores. No representa una medición de los 17 archivos del corpus.
+Consulta `evaluacion/README.md` para ejecutarla, revisar los resultados y
+conocer los límites de las anotaciones.
 
 ## Próximos pasos
 

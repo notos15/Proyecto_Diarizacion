@@ -1,0 +1,219 @@
+{
+  "nombre_archivo": "Entrevista_a_Santiago_Urrutia_del_4_de_noviembre_de_2017.ogg",
+  "duracion_total_archivo_seg": 79.34,
+  "tiempo_total_voz_seg": 73.83,
+  "tiempo_silencio_seg": 5.51,
+  "hablantes_detectados": 2,
+  "hablantes": {
+    "Hablante 1": {
+      "segundos": 38.18,
+      "porcentaje": 51.7
+    },
+    "Hablante 2": {
+      "segundos": 35.65,
+      "porcentaje": 48.3
+    }
+  },
+  "segmentos": [
+    {
+      "inicio": 0.33,
+      "fin": 5.53,
+      "hablante": "Hablante 1"
+    },
+    {
+      "inicio": 5.53,
+      "fin": 10.33,
+      "hablante": "Hablante 2"
+    },
+    {
+      "inicio": 10.33,
+      "fin": 11.25,
+      "hablante": "Hablante 1"
+    },
+    {
+      "inicio": 11.52,
+      "fin": 12.9,
+      "hablante": "Hablante 1"
+    },
+    {
+      "inicio": 13.2,
+      "fin": 14.33,
+      "hablante": "Hablante 1"
+    },
+    {
+      "inicio": 14.33,
+      "fin": 14.4,
+      "hablante": "Hablante 2"
+    },
+    {
+      "inicio": 14.46,
+      "fin": 17.64,
+      "hablante": "Hablante 2"
+    },
+    {
+      "inicio": 17.94,
+      "fin": 19.53,
+      "hablante": "Hablante 2"
+    },
+    {
+      "inicio": 19.59,
+      "fin": 22.32,
+      "hablante": "Hablante 2"
+    },
+    {
+      "inicio": 22.38,
+      "fin": 23.52,
+      "hablante": "Hablante 2"
+    },
+    {
+      "inicio": 24.03,
+      "fin": 26.83,
+      "hablante": "Hablante 2"
+    },
+    {
+      "inicio": 26.83,
+      "fin": 31.56,
+      "hablante": "Hablante 1"
+    },
+    {
+      "inicio": 31.92,
+      "fin": 32.82,
+      "hablante": "Hablante 1"
+    },
+    {
+      "inicio": 32.94,
+      "fin": 36.32,
+      "hablante": "Hablante 1"
+    },
+    {
+      "inicio": 36.32,
+      "fin": 37.68,
+      "hablante": "Hablante 2"
+    },
+    {
+      "inicio": 37.98,
+      "fin": 39.09,
+      "hablante": "Hablante 2"
+    },
+    {
+      "inicio": 39.27,
+      "fin": 43.44,
+      "hablante": "Hablante 2"
+    },
+    {
+      "inicio": 43.47,
+      "fin": 44.4,
+      "hablante": "Hablante 2"
+    },
+    {
+      "inicio": 44.88,
+      "fin": 45.39,
+      "hablante": "Hablante 1"
+    },
+    {
+      "inicio": 45.42,
+      "fin": 50.88,
+      "hablante": "Hablante 1"
+    },
+    {
+      "inicio": 50.88,
+      "fin": 55.26,
+      "hablante": "Hablante 2"
+    },
+    {
+      "inicio": 55.68,
+      "fin": 57.96,
+      "hablante": "Hablante 2"
+    },
+    {
+      "inicio": 58.14,
+      "fin": 59.28,
+      "hablante": "Hablante 2"
+    },
+    {
+      "inicio": 59.28,
+      "fin": 60.15,
+      "hablante": "Hablante 1"
+    },
+    {
+      "inicio": 60.42,
+      "fin": 66.48,
+      "hablante": "Hablante 1"
+    },
+    {
+      "inicio": 66.48,
+      "fin": 67.65,
+      "hablante": "Hablante 2"
+    },
+    {
+      "inicio": 67.68,
+      "fin": 70.48,
+      "hablante": "Hablante 2"
+    },
+    {
+      "inicio": 70.48,
+      "fin": 70.59,
+      "hablante": "Hablante 1"
+    },
+    {
+      "inicio": 70.83,
+      "fin": 71.22,
+      "hablante": "Hablante 1"
+    },
+    {
+      "inicio": 71.37,
+      "fin": 71.58,
+      "hablante": "Hablante 1"
+    },
+    {
+      "inicio": 71.64,
+      "fin": 74.85,
+      "hablante": "Hablante 1"
+    },
+    {
+      "inicio": 75.06,
+      "fin": 76.83,
+      "hablante": "Hablante 1"
+    },
+    {
+      "inicio": 76.89,
+      "fin": 77.31,
+      "hablante": "Hablante 1"
+    },
+    {
+      "inicio": 77.61,
+      "fin": 77.82,
+      "hablante": "Hablante 1"
+    },
+    {
+      "inicio": 77.88,
+      "fin": 78.72,
+      "hablante": "Hablante 1"
+    },
+    {
+      "inicio": 78.75,
+      "fin": 78.87,
+      "hablante": "Hablante 1"
+    },
+    {
+      "inicio": 78.9,
+      "fin": 79.26,
+      "hablante": "Hablante 1"
+    }
+  ],
+  "metodo": "ERes2Net + WebRTC VAD + agrupamiento jerárquico",
+  "advertencias": [
+    "Estimación acústica: puede confundir voces parecidas o dividir una misma voz.",
+    "Las voces simultáneas no se identifican por separado."
+  ],
+  "diagnostico_conteo": {
+    "referencias_totales": 83,
+    "referencias_utilizadas": 83,
+    "candidatos": [],
+    "salto_fusion": 0.132,
+    "corte_adaptado": 0.6862,
+    "estrategia": "jerarquico_promedio_coseno",
+    "umbral_distancia": 0.6,
+    "silueta_elegida": 0.3895
+  }
+}

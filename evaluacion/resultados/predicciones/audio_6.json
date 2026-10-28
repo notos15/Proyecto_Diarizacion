@@ -1,0 +1,159 @@
+{
+  "nombre_archivo": "Audio_entrevista_Nadia_Heck.wav",
+  "duracion_total_archivo_seg": 88.12,
+  "tiempo_total_voz_seg": 84.16,
+  "tiempo_silencio_seg": 3.96,
+  "hablantes_detectados": 2,
+  "hablantes": {
+    "Hablante 1": {
+      "segundos": 35.92,
+      "porcentaje": 42.7
+    },
+    "Hablante 2": {
+      "segundos": 48.24,
+      "porcentaje": 57.3
+    }
+  },
+  "segmentos": [
+    {
+      "inicio": 0.27,
+      "fin": 11.87,
+      "hablante": "Hablante 1"
+    },
+    {
+      "inicio": 11.87,
+      "fin": 12.63,
+      "hablante": "Hablante 2"
+    },
+    {
+      "inicio": 12.81,
+      "fin": 12.93,
+      "hablante": "Hablante 2"
+    },
+    {
+      "inicio": 13.08,
+      "fin": 15.75,
+      "hablante": "Hablante 2"
+    },
+    {
+      "inicio": 15.78,
+      "fin": 20.94,
+      "hablante": "Hablante 2"
+    },
+    {
+      "inicio": 21.0,
+      "fin": 26.79,
+      "hablante": "Hablante 2"
+    },
+    {
+      "inicio": 26.94,
+      "fin": 28.62,
+      "hablante": "Hablante 2"
+    },
+    {
+      "inicio": 29.01,
+      "fin": 33.24,
+      "hablante": "Hablante 1"
+    },
+    {
+      "inicio": 33.57,
+      "fin": 35.16,
+      "hablante": "Hablante 2"
+    },
+    {
+      "inicio": 35.25,
+      "fin": 38.91,
+      "hablante": "Hablante 2"
+    },
+    {
+      "inicio": 39.12,
+      "fin": 41.17,
+      "hablante": "Hablante 2"
+    },
+    {
+      "inicio": 41.17,
+      "fin": 41.91,
+      "hablante": "Hablante 1"
+    },
+    {
+      "inicio": 42.06,
+      "fin": 45.51,
+      "hablante": "Hablante 1"
+    },
+    {
+      "inicio": 45.63,
+      "fin": 47.97,
+      "hablante": "Hablante 1"
+    },
+    {
+      "inicio": 48.06,
+      "fin": 48.37,
+      "hablante": "Hablante 1"
+    },
+    {
+      "inicio": 48.37,
+      "fin": 56.1,
+      "hablante": "Hablante 2"
+    },
+    {
+      "inicio": 56.13,
+      "fin": 57.09,
+      "hablante": "Hablante 2"
+    },
+    {
+      "inicio": 57.63,
+      "fin": 65.58,
+      "hablante": "Hablante 1"
+    },
+    {
+      "inicio": 65.7,
+      "fin": 68.16,
+      "hablante": "Hablante 1"
+    },
+    {
+      "inicio": 68.52,
+      "fin": 74.07,
+      "hablante": "Hablante 2"
+    },
+    {
+      "inicio": 74.31,
+      "fin": 84.69,
+      "hablante": "Hablante 2"
+    },
+    {
+      "inicio": 84.78,
+      "fin": 84.92,
+      "hablante": "Hablante 2"
+    },
+    {
+      "inicio": 84.92,
+      "fin": 85.68,
+      "hablante": "Hablante 1"
+    },
+    {
+      "inicio": 85.95,
+      "fin": 86.22,
+      "hablante": "Hablante 1"
+    },
+    {
+      "inicio": 86.31,
+      "fin": 88.1197,
+      "hablante": "Hablante 1"
+    }
+  ],
+  "metodo": "ERes2Net + WebRTC VAD + agrupamiento jerárquico",
+  "advertencias": [
+    "Estimación acústica: puede confundir voces parecidas o dividir una misma voz.",
+    "Las voces simultáneas no se identifican por separado."
+  ],
+  "diagnostico_conteo": {
+    "referencias_totales": 96,
+    "referencias_utilizadas": 96,
+    "candidatos": [],
+    "salto_fusion": 0.1952,
+    "corte_adaptado": 0.6913,
+    "estrategia": "jerarquico_promedio_coseno",
+    "umbral_distancia": 0.6,
+    "silueta_elegida": 0.5486
+  }
+}
