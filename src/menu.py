@@ -25,6 +25,10 @@ def procesar_archivo(audio_path):
     imprimir_resultados(reporte)
     return True
 
+def _reloj(segundos):
+    total = int(round(segundos))
+    return f"{total // 60}:{total % 60:02d}"
+
 def imprimir_resultados(reporte):
     print("\n" + "="*60)
     print(f"  RESULTADOS DE DIARIZACIÓN AUTOMÁTICA DEL AUDIO {reporte['nombre_archivo']}")
@@ -36,7 +40,27 @@ def imprimir_resultados(reporte):
     
     print("Tiempos de participación por persona:")
     for hablante, datos in reporte["hablantes"].items():
-        print(f"  👉 {hablante}: {datos['segundos']}s ({datos['porcentaje']}%)")
+        print(f"  👉 {hablante}: {datos['segundos']}s ({datos['porcentaje']}%) · "
+              f"{datos['turnos']} turnos de {datos['turno_medio_seg']}s en promedio · "
+              f"interviene entre {_reloj(datos['primera_intervencion_seg'])} y {_reloj(datos['ultima_intervencion_seg'])}")
+    resumen = reporte.get("resumen", {})
+    if resumen.get("turnos_totales"):
+        print("\nDinámica de la conversación:")
+        print(f"  • Turnos de habla: {resumen['turnos_totales']} ({resumen['cambios_de_hablante']} cambios de hablante)")
+        print(f"  • Duración media de un turno: {resumen['turno_medio_seg']}s")
+        mayor = resumen.get("turno_mas_largo")
+        if mayor:
+            print(f"  • Turno más largo: {mayor['hablante']} durante {mayor['duracion_seg']}s "
+                  f"(desde {_reloj(mayor['inicio'])})")
+        pausa = resumen.get("pausa_mas_larga")
+        if pausa:
+            print(f"  • Pausas entre turnos: {resumen['pausas_entre_turnos']} "
+                  f"(media {resumen['pausa_media_seg']}s, la más larga {pausa['duracion_seg']}s en {_reloj(pausa['inicio'])})")
+        if "equilibrio_participacion" in resumen:
+            print(f"  • Equilibrio de participación: {resumen['equilibrio_participacion']}/100")
+    diagnostico = reporte.get("diagnostico_conteo", {})
+    if "silueta_elegida" in diagnostico:
+        print(f"  • Separación entre voces (silueta): {diagnostico['silueta_elegida']}")
     for advertencia in reporte.get("advertencias", []):
         print(f"  ⚠️ {advertencia}")
     print("="*60 + "\n")
