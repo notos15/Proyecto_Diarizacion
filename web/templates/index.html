@@ -31,23 +31,11 @@
     </section>
     <section id="empty-results" class="empty-results"><span aria-hidden="true">≋</span><h2>De audio a conversación</h2><p>Los hablantes, sus tiempos y los detalles aparecerán aquí.</p></section>
     <section id="results" hidden aria-labelledby="results-title" tabindex="-1">
-      <div class="results-heading"><div><p class="eyebrow">02 / ANÁLISIS COMPLETADO</p><h2 id="results-title">Las voces de tu audio</h2><p id="result-file"></p></div><div class="actions"><button id="download-csv" class="secondary" type="button">Turnos en CSV ↓</button><button id="download" class="secondary" type="button">Descargar JSON ↓</button></div></div>
+      <div class="results-heading"><div><p class="eyebrow">02 / ANÁLISIS COMPLETADO</p><h2 id="results-title">Las voces de tu audio</h2><p id="result-file"></p></div><button id="download" class="secondary" type="button">Descargar JSON ↓</button></div>
       <div class="stats" id="stats"></div>
-      <div class="player" id="player" hidden aria-live="polite"><button type="button" id="player-stop" class="play-button" aria-label="Detener reproducción">■</button><div class="player-info"><strong id="player-title">Reproduciendo</strong><span id="player-range"></span></div><div class="player-bar" aria-hidden="true"><span id="player-progress"></span></div></div>
-      <p id="player-error" class="error" role="alert" hidden></p>
-      <div class="grid-2">
-        <div class="panel participation"><div class="section-title"><div><h3>Participación por hablante</h3><p>Porcentaje sobre el tiempo de voz atribuido. Pulsa ▶ para escuchar solo a esa voz.</p></div></div><div class="participation-body"><div id="donut" class="donut" role="img" aria-label="Gráfico de participación por hablante"></div><div id="speakers"></div></div></div>
-        <div class="panel"><div class="section-title"><div><h3>Composición del audio</h3><p>Voz atribuida, voz descartada por ser muy breve y silencio.</p></div></div><div id="composition" class="composition"></div></div>
-      </div>
-      <div class="panel timeline-panel"><div class="section-title"><div><h3>Línea de tiempo</h3><p>Quién habla en cada momento. Pulsa un tramo para reproducirlo; pulsa el fondo para saltar a ese instante.</p></div></div><div id="timeline" class="chart"></div><div id="legend" class="legend" aria-hidden="true"></div></div>
-      <div class="panel"><div class="section-title"><div><h3>Actividad a lo largo del audio</h3><p id="activity-caption">Segundos de voz de cada hablante por tramo.</p></div></div><div id="activity" class="chart"></div></div>
-      <div class="grid-2">
-        <div class="panel"><div class="section-title"><div><h3>Dinámica de los turnos</h3><p>Cuántas veces interviene cada voz y cuánto duran sus turnos.</p></div></div><div id="turns" class="turns"></div></div>
-        <div class="panel"><div class="section-title"><div><h3>Quién habla después de quién</h3><p>Número de veces que una voz toma la palabra tras otra.</p></div></div><div id="transitions" class="transitions"></div></div>
-      </div>
+      <div class="panel participation"><div class="section-title"><div><h3>Participación por hablante</h3><p>Porcentaje sobre el tiempo de voz atribuido.</p></div></div><div id="speakers"></div></div>
       <aside class="warnings" aria-labelledby="warnings-title"><h3 id="warnings-title">Ten en cuenta estas limitaciones</h3><ul id="warnings-list"></ul></aside>
-      <details class="panel segments" open><summary>Ver los turnos de habla <span id="segment-count"></span></summary><div class="segments-tools"><label for="segment-filter">Mostrar</label><select id="segment-filter"><option value="">Todos los hablantes</option></select><span class="subtle">Pulsa ▶ en un turno para escuchar solo ese tramo.</span></div><div class="table-scroll"><table><thead><tr><th scope="col"><span class="visually-hidden">Reproducir</span></th><th scope="col">#</th><th scope="col">Hablante</th><th scope="col">Inicio</th><th scope="col">Fin</th><th scope="col">Duración</th></tr></thead><tbody id="segments-body"></tbody></table></div><button class="secondary" id="more" type="button" hidden>Mostrar más turnos</button></details>
-      <details class="panel diagnostics"><summary>Detalles técnicos del conteo</summary><div id="diagnostics" class="diagnostics-body"></div></details>
+      <details class="panel segments"><summary>Ver los turnos de habla <span id="segment-count"></span></summary><div class="table-scroll"><table><thead><tr><th>Hablante</th><th>Inicio</th><th>Fin</th><th>Duración</th></tr></thead><tbody id="segments-body"></tbody></table></div><button class="secondary" id="more" type="button" hidden>Mostrar más turnos</button></details>
       <p class="method" id="method"></p>
     </section>
   </main>
