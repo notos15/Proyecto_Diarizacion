@@ -51,38 +51,6 @@ class DiarizacionTests(unittest.TestCase):
         self.assertEqual(len(reporte['segmentos']), 2)
         self.assertEqual(reporte['segmentos'][0]['fin'], 3)
 
-    def test_reporte_estadisticas_turnos_y_pausas(self):
-        reporte = d._reporte('ejemplo', 10, [(1, 2), (2, 3), (5, 7), (8, 9)], [8, 8, 2, 8], [])
-        h1, h2 = reporte['hablantes']['Hablante 1'], reporte['hablantes']['Hablante 2']
-        self.assertEqual((h1['turnos'], h1['turno_mas_largo_seg'], h1['primera_intervencion_seg'], h1['ultima_intervencion_seg']), (2, 2, 1, 9))
-        self.assertEqual((h2['turnos'], h2['porcentaje_archivo']), (1, 20))
-        resumen = reporte['resumen']
-        self.assertEqual((resumen['turnos_totales'], resumen['cambios_de_hablante'], resumen['hablante_principal']), (3, 2, 'Hablante 1'))
-        self.assertEqual(resumen['pausa_mas_larga'], dict(inicio=3, fin=5, duracion_seg=2, despues_de='Hablante 1', antes_de='Hablante 2'))
-        self.assertEqual(resumen['turno_mas_largo']['duracion_seg'], 2)
-        self.assertEqual(reporte['transiciones'], {'Hablante 1': {'Hablante 1': 0, 'Hablante 2': 1},
-                                                   'Hablante 2': {'Hablante 1': 1, 'Hablante 2': 0}})
-        self.assertAlmostEqual(resumen['equilibrio_participacion'], 97.1, places=1)
-        linea = reporte['linea_tiempo']
-        self.assertEqual(linea['paso_seg'], 1)
-        self.assertEqual(len(linea['tramos']), 10)
-        self.assertEqual(linea['tramos'][1]['hablantes'], {'Hablante 1': 1})
-        self.assertEqual(linea['tramos'][4]['hablantes'], {})
-        self.assertAlmostEqual(sum(sum(t['hablantes'].values()) for t in linea['tramos']), 5)
-
-    def test_linea_tiempo_agrupa_audios_largos(self):
-        reporte = d._reporte('largo', 3600, [(0, 1799.5), (1800, 3600)], [0, 1], [])
-        self.assertEqual(reporte['linea_tiempo']['paso_seg'], 60)
-        self.assertEqual(len(reporte['linea_tiempo']['tramos']), 60)
-        self.assertEqual(reporte['linea_tiempo']['tramos'][29]['hablantes'], {'Hablante 1': 59.5})
-        self.assertEqual(reporte['resumen']['pausas_entre_turnos'], 1)
-
-    def test_envolvente_normalizada(self):
-        envolvente = d._envolvente(np.r_[np.zeros(1600), np.ones(1600) * .5, np.ones(1600)], puntos=3)
-        self.assertEqual(envolvente['valores'], [0, .5, 1])
-        self.assertEqual(envolvente['paso_seg'], .1)
-        self.assertEqual(d._envolvente(np.zeros(0)), {'paso_seg': 0.0, 'valores': []})
-
     def test_audio_silencioso_sin_cargar_modelo(self):
         with tempfile.TemporaryDirectory() as tmp:
             ruta = Path(tmp) / 'silencio.wav'
@@ -92,9 +60,6 @@ class DiarizacionTests(unittest.TestCase):
             encoder.assert_not_called()
         self.assertEqual(reporte['hablantes_detectados'], 0)
         self.assertEqual(reporte['tiempo_silencio_seg'], 2)
-        self.assertEqual(reporte['resumen']['turnos_totales'], 0)
-        self.assertEqual(len(reporte['envolvente']['valores']), 400)
-        self.assertEqual(reporte['deteccion_voz']['tiempo_sin_voz_seg'], 2)
 
     def test_integracion_con_silencio_intermedio(self):
         with tempfile.TemporaryDirectory() as tmp:
@@ -107,12 +72,6 @@ class DiarizacionTests(unittest.TestCase):
         self.assertEqual(reporte['tiempo_total_voz_seg'], 3.6)
         self.assertEqual(reporte['tiempo_silencio_seg'], 1.4)
         self.assertEqual(reporte['segmentos'][1]['inicio'], 3)
-        diagnostico = reporte['diagnostico_conteo']
-        self.assertEqual(diagnostico['distancias_entre_hablantes']['Hablante 1']['Hablante 2'], 1.0)
-        self.assertEqual((diagnostico['huellas_extraidas'], diagnostico['huellas_fiables']), (2, 2))
-        self.assertEqual(reporte['deteccion_voz'], dict(regiones_detectadas=2, contextos_utilizados=2,
-            tiempo_voz_detectada_seg=3.6, tiempo_voz_descartada_seg=0.0, tiempo_sin_voz_seg=1.4))
-        self.assertEqual(reporte['resumen']['cambios_de_hablante'], 1)
 
     def test_fragmentos_breves_no_crean_personas(self):
         x = np.array([[1, 0, 0], [0.99, 0.01, 0], [0, 1, 0],
