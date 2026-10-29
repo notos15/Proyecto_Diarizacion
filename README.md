@@ -12,7 +12,11 @@ Incluye una página web local y un menú de consola. El procesamiento se realiza
 - Asignar etiquetas como **Hablante 1**, **Hablante 2**, etc.
 - Calcular los segundos y el porcentaje de participación.
 - Mostrar los segmentos con sus tiempos de inicio y fin.
-- Descargar el reporte en formato JSON desde la página.
+- **Reproducir cada tramo** desde la página: un botón ▶ en cada turno, en cada hablante y en la línea de tiempo reproduce solo ese intervalo del audio.
+- Gráficos en la página: participación (anillo), composición del audio, línea de tiempo con forma de onda coloreada por hablante, actividad por tramos, dinámica de turnos y matriz de quién habla después de quién.
+- Estadísticas adicionales: turnos por hablante, duración media y máxima de los turnos, primera y última intervención, pausas, cambios de hablante y equilibrio de participación.
+- Detalles técnicos del conteo: huellas extraídas, referencias utilizadas, silueta y distancia entre las voces.
+- Descargar el reporte en formato JSON y los turnos en CSV desde la página.
 
 ## ¿Cómo funciona?
 
@@ -71,7 +75,11 @@ Abre en tu navegador:
 
 **http://127.0.0.1:8000**
 
-Selecciona o arrastra un audio y pulsa **Diarizar audio**. Al terminar, podrás revisar la participación, los segmentos y las advertencias.
+Selecciona o arrastra un audio y pulsa **Diarizar audio**. Al terminar, podrás revisar la participación, los gráficos, los segmentos y las advertencias.
+
+Para escuchar un tramo concreto, pulsa ▶ junto a cualquier turno de la tabla o sobre un bloque de la línea de tiempo: el reproductor salta a ese instante y se detiene al final del tramo. El botón ▶ junto a un hablante reproduce todos sus turnos seguidos. Esta reproducción usa el reproductor del navegador, así que depende de los formatos que este admita.
+
+Los gráficos se dibujan en la propia página, sin librerías externas ni conexión a Internet.
 
 Para detener el servidor, presiona **Ctrl+C** en la terminal.
 
