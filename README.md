@@ -1,4 +1,4 @@
-# Diarización de hablantes
+# Diarización de  hablantes
 
 Proyecto de Acústica Computacional con Python que analiza una grabación para estimar **cuántas voces diferentes hay, cuándo habla cada una y cuánto tiempo participa**.
 
