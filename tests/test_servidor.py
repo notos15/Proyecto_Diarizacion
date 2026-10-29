@@ -22,6 +22,8 @@ class ServidorTests(unittest.TestCase):
         self.assertEqual(r.status_code, 200)
         self.assertIn(b'Diarizar audio', r.data)
         self.assertIn(b'.m4a', r.data)
+        for marcador in (b'id="player"', b'id="timeline"', b'id="segment-filter"', b'id="diagnostics"'):
+            self.assertIn(marcador, r.data)
         with self.client.get('/static/app.js') as recurso:
             self.assertEqual(recurso.status_code, 200)
 
