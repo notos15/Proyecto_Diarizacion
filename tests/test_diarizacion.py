@@ -89,12 +89,15 @@ class DiarizacionTests(unittest.TestCase):
             sf.write(ruta, np.zeros(32000), 16000)
             with patch.object(d, '_encoder') as encoder:
                 reporte = d.ejecutar_diarizacion(ruta)
+                reporte_fijo = d.ejecutar_diarizacion(ruta, num_speakers=2)
             encoder.assert_not_called()
         self.assertEqual(reporte['hablantes_detectados'], 0)
         self.assertEqual(reporte['tiempo_silencio_seg'], 2)
         self.assertEqual(reporte['resumen']['turnos_totales'], 0)
         self.assertEqual(len(reporte['envolvente']['valores']), 400)
         self.assertEqual(reporte['deteccion_voz']['tiempo_sin_voz_seg'], 2)
+        self.assertEqual(reporte_fijo['hablantes_solicitados'], 2)
+        self.assertEqual(reporte_fijo['hablantes_detectados'], 0)
 
     def test_integracion_con_silencio_intermedio(self):
         with tempfile.TemporaryDirectory() as tmp:
@@ -113,6 +116,15 @@ class DiarizacionTests(unittest.TestCase):
         self.assertEqual(reporte['deteccion_voz'], dict(regiones_detectadas=2, contextos_utilizados=2,
             tiempo_voz_detectada_seg=3.6, tiempo_voz_descartada_seg=0.0, tiempo_sin_voz_seg=1.4))
         self.assertEqual(reporte['resumen']['cambios_de_hablante'], 1)
+
+    def test_cantidad_indicada_fija_el_agrupamiento(self):
+        with patch.object(d, '_cargar_audio', return_value=np.ones(80000) * .1), \
+                patch.object(d, '_intervalos_voz', return_value=[(0, 25600), (48000, 80000)]), \
+                patch.object(d, '_encoder') as encoder:
+            encoder.return_value.embed_utterance.side_effect = [np.array([1., 0.]), np.array([0., 1.])]
+            reporte = d.ejecutar_diarizacion('ejemplo.wav', num_speakers=2)
+        self.assertEqual(reporte['hablantes_solicitados'], 2)
+        self.assertEqual(reporte['hablantes_detectados'], 2)
 
     def test_fragmentos_breves_no_crean_personas(self):
         x = np.array([[1, 0, 0], [0.99, 0.01, 0], [0, 1, 0],

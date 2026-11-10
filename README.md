@@ -77,6 +77,10 @@ Abre en tu navegador:
 
 Selecciona o arrastra un audio y pulsa **Diarizar audio**. Al terminar, podrás revisar la participación, los gráficos, los segmentos y las advertencias.
 
+También puedes elegir **Grabar ahora**: permite el micrófono cuando el navegador lo solicite, pulsa el botón central para empezar y usa **Pausar/Reanudar** o **Detener/Terminar**. Al terminar, escucha la grabación y pulsa **Diarizar audio**. La grabación se convierte en WAV en el navegador antes de enviarse al servidor local. El micrófono requiere abrir la página en `http://127.0.0.1:8000/` y permitir su uso en el navegador.
+
+Para la cantidad de hablantes, **Automático** está seleccionado al inicio. Puedes pulsar un número del 1 al 6 o elegir **Otro…** y escribir un entero positivo. El agrupamiento usará esa cantidad cuando el audio tenga suficientes fragmentos de voz. La cantidad indicada queda registrada en el reporte JSON.
+
 Para escuchar un tramo concreto, pulsa ▶ junto a cualquier turno de la tabla o sobre un bloque de la línea de tiempo: el reproductor salta a ese instante y se detiene al final del tramo. El botón ▶ junto a un hablante reproduce todos sus turnos seguidos. Esta reproducción usa el reproductor del navegador, así que depende de los formatos que este admita.
 
 Los gráficos se dibujan en la propia página, sin librerías externas ni conexión a Internet.

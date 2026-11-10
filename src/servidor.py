@@ -1,5 +1,6 @@
 """Interfaz HTTP local. Reutiliza el mismo análisis que el menú de consola."""
 import os
+import re
 from pathlib import Path
 import tempfile
 from threading import Lock
@@ -45,6 +46,13 @@ def crear_app(config=None):
         extension = Path(nombre).suffix.lower()
         if extension not in EXTENSIONES_AUDIO:
             return jsonify(error='Formato no admitido. Selecciona un audio; los videos quedan fuera por ahora.'), 400
+        cantidad = request.form.get('num_speakers', '')
+        if cantidad and not re.fullmatch(r'[1-9][0-9]*', cantidad):
+            return jsonify(error='La cantidad de hablantes debe ser un entero positivo.'), 400
+        try:
+            num_speakers = int(cantidad) if cantidad else None
+        except ValueError:
+            return jsonify(error='La cantidad de hablantes debe ser un entero positivo.'), 400
         if not bloqueo.acquire(blocking=False):
             return jsonify(error='Ya hay un análisis en curso. Espera a que termine e inténtalo nuevamente.'), 409
         try:
@@ -54,7 +62,7 @@ def crear_app(config=None):
                 archivo.save(ruta)
                 if ruta.stat().st_size == 0:
                     return jsonify(error='El archivo está vacío.'), 400
-                reporte = ejecutar_diarizacion(ruta)
+                reporte = ejecutar_diarizacion(ruta, num_speakers=num_speakers)
                 reporte['nombre_archivo'] = nombre
                 return jsonify(reporte)
         except (ValueError, OSError) as exc:

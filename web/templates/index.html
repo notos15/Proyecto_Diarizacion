@@ -7,6 +7,8 @@
   <title>Voces · Diarización de audio</title>
   <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
   <script src="{{ url_for('static', filename='app.js') }}" defer></script>
+  <script src="{{ url_for('static', filename='controles.js') }}" defer></script>
+  <script src="{{ url_for('static', filename='resultados.js') }}" defer></script>
 </head>
 <body>
   <header class="topbar"><a class="brand" href="/" aria-label="Voces, inicio"><span class="brand-icon" aria-hidden="true">ııı</span> voces<span class="brand-dot">.</span></a><span class="local-badge"><i></i> Procesamiento local</span></header>
@@ -16,14 +18,39 @@
       <div class="sound-art" aria-hidden="true"><div class="orbit"></div><div class="wave"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div><span>UNA CONVERSACIÓN, MUCHAS VOCES</span></div>
     </section>
     <section class="panel upload-panel" aria-labelledby="upload-title">
-      <div class="section-title"><span class="step">01</span><div><h2 id="upload-title">Tu grabación</h2><p>Sube un audio para comenzar el análisis.</p></div><span class="tag">SOLO AUDIO</span></div>
+      <div class="section-title"><span class="step">01</span><div><h2 id="upload-title">Tu grabación</h2><p id="source-description">Sube un audio o grábalo ahora para comenzar el análisis.</p></div><span class="tag">SOLO AUDIO</span></div>
       <form id="audio-form" data-max-mb="{{ max_mb }}">
+        <div class="source-tabs" role="group" aria-label="Origen del audio">
+          <button type="button" id="upload-tab" class="source-tab active" aria-pressed="true">↥ <span>Subir archivo</span></button>
+          <button type="button" id="record-tab" class="source-tab" aria-pressed="false">♩ <span>Grabar ahora</span></button>
+        </div>
         <label class="dropzone" id="dropzone" for="audio-input">
           <span class="upload-icon" aria-hidden="true">↥</span><strong id="file-title">Arrastra tu audio aquí</strong><span id="file-subtitle">o <u>selecciona un archivo de tu equipo</u></span>
           <small>MP3, M4A, WAV, OGG, FLAC y más · Hasta {{ max_mb }} MB</small>
           <input type="file" id="audio-input" name="audio" accept="{{ formatos }}" aria-label="Seleccionar archivo de audio">
         </label>
+        <div id="record-panel" class="record-panel" hidden>
+          <div id="record-idle" class="record-idle">
+            <button type="button" id="start-record" class="record-orb" aria-label="Empezar a grabar"><span aria-hidden="true"></span></button>
+            <strong id="record-prompt">Presiona para grabar</strong>
+            <p id="record-hint">Se usará el micrófono de tu equipo · el navegador pedirá permiso.</p>
+          </div>
+          <div id="record-active" class="record-active" hidden>
+            <span id="record-status" class="record-status" role="status">● GRABANDO</span>
+            <strong id="record-timer" class="record-timer">00:00.0</strong>
+            <div id="record-wave" class="record-wave" aria-hidden="true"></div>
+            <div class="record-actions"><button type="button" id="pause-record" class="record-pause">Ⅱ Pausar</button><button type="button" id="stop-record" class="record-stop">■ Detener</button></div>
+          </div>
+        </div>
         <audio id="preview" controls hidden aria-label="Escuchar audio seleccionado"></audio>
+        <div class="speaker-option"><p class="speaker-title">¿Cuántos hablantes hay? <span>(opcional)</span></p>
+          <div class="speaker-choices" role="group" aria-label="Cantidad de hablantes">
+            <button type="button" class="speaker-choice selected" data-speakers="auto" aria-pressed="true">✦ Automático</button><span class="choice-divider" aria-hidden="true"></span>
+            <button type="button" class="speaker-choice" data-speakers="1" aria-pressed="false">1</button><button type="button" class="speaker-choice" data-speakers="2" aria-pressed="false">2</button><button type="button" class="speaker-choice" data-speakers="3" aria-pressed="false">3</button><button type="button" class="speaker-choice" data-speakers="4" aria-pressed="false">4</button><button type="button" class="speaker-choice" data-speakers="5" aria-pressed="false">5</button><button type="button" class="speaker-choice" data-speakers="6" aria-pressed="false">6</button><button type="button" class="speaker-choice" data-speakers="other" aria-pressed="false">Otro…</button>
+            <input id="num-speakers" type="text" inputmode="numeric" pattern="[1-9][0-9]*" autocomplete="off" placeholder="Número" aria-label="Otra cantidad de hablantes" aria-describedby="speaker-help" hidden>
+          </div>
+          <p id="speaker-help" class="speaker-help">Déjalo en Automático si no lo sabes; el programa estimará la cantidad.</p>
+        </div>
         <div class="form-bottom"><p><span aria-hidden="true">↳</span> El análisis se realiza en tu equipo.<br><span class="subtle">La copia de trabajo se elimina al terminar.</span></p><button type="submit" id="analyze" disabled>Diarizar audio <span aria-hidden="true">↗</span></button></div>
       </form>
       <div id="progress" class="progress" hidden role="status"><span class="spinner" aria-hidden="true"></span><div><strong>Estamos distinguiendo las voces…</strong><p id="elapsed">Puede tardar según la duración del audio. Mantén esta página abierta.</p></div></div>
